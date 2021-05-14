@@ -12,27 +12,27 @@ const NavBar = () => {
             <div className="navbar-links">
                 <div className="link">
                     <Link to={"home"}>
-                        <h1>Home</h1>
+                        <h2>Home</h2>
                     </Link>
                 </div>
                 <div className="link">
                     <Link to={"about-us"}>
-                        <h1>About Us</h1>
+                        <h2>About Us</h2>
                     </Link>
                 </div>
                 <div className="link">
                     <Link to={"gallery"}>
-                        <h1>Gallery</h1>
+                        <h2>Gallery</h2>
                     </Link>
                 </div>
                 <div className="link">
                     <Link to={"process"}>
-                        <h1>Out Process</h1>
+                        <h2>Out Process</h2>
                     </Link>
                 </div>
                 <div className="link">
                     <Link to={"contact"}>
-                        <h1>Contact Us</h1>
+                        <h2>Contact Us</h2>
                     </Link>
                 </div>
             </div>

@@ -1,1 +1,5 @@
-/* TODO Add site wide styles */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+* {
+    font-family: 'Source Serif Pro', serif;
+}
