@@ -46,10 +46,15 @@
 
 .link > a {
     text-decoration: none;
-    color: #5a5a5a;
     font-size: 13px;
 }
 
-.test {
-    color: red;
+a > h2 {
+    color: #5a5a5a;
+    transition: 0.3s;
+}
+
+a > h2:hover{
+    color: #B77231;
+    transition: 0.3s;
 }
