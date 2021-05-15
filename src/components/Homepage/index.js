@@ -22,7 +22,9 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="home-intro">
-                    <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
+                    <div className="content_container">
+                        <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
+                    </div>
                     <div className="home-intro_images">
                         <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image" />
                         <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image" />
