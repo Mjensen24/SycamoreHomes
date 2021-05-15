@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import "./index.css"
 
 
@@ -9,33 +9,33 @@ const NavBar = () => {
             <div className="navbar-logo">
                 <img src="../../../images/sycamore.jpg" alt="test"></img>
             </div>
-            <div className="navbar-links">
-                <div className="link">
-                    <Link to={"home"}>
+            <ul className="navbar-links">
+                <li className="link">
+                    <NavLink to={"/"}>
                         <h2>Home</h2>
-                    </Link>
-                </div>
-                <div className="link">
-                    <Link to={"about-us"}>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"about-us"}>
                         <h2>About Us</h2>
-                    </Link>
-                </div>
-                <div className="link">
-                    <Link to={"gallery"}>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"gallery"}>
                         <h2>Gallery</h2>
-                    </Link>
-                </div>
-                <div className="link">
-                    <Link to={"process"}>
-                        <h2>Out Process</h2>
-                    </Link>
-                </div>
-                <div className="link">
-                    <Link to={"contact"}>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"process"}>
+                        <h2>Our Process</h2>
+                    </NavLink>
+                </li>
+                <li className="link" >
+                    <NavLink to={"contact"}>
                         <h2>Contact Us</h2>
-                    </Link>
-                </div>
-            </div>
+                    </NavLink>
+                </li>
+            </ul>
         </div >
     )
 }
