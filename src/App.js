@@ -1,22 +1,30 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import AboutUs from './components/AboutUs';
+import Contact from './components/Contact';
+import Gallery from './components/Gallery';
+import Homepage from './components/Homepage';
 import NavBar from './components/NavBar';
+import OurProcess from './components/OurProcess';
 
 function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <Route path="/about-us">
-
+      <Route path="/" exact={true}>
+        <Homepage />
       </Route>
-      <Route path="/gallery">
-
+      <Route path="/about-us" exact={true}>
+        <AboutUs />
       </Route>
-      <Route path="/process">
-
+      <Route path="/gallery" exact={true}>
+        <Gallery />
       </Route>
-      <Route path="/contact">
-
+      <Route path="/process" exact={true}>
+        <OurProcess />
+      </Route>
+      <Route path="/contact" exact={true}>
+        <Contact />
       </Route>
     </BrowserRouter>
   );
