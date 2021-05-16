@@ -14,11 +14,11 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="homepage-column">
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome2.jpg" alt="home" className="home_image" />
-                    </div>
                     <div className="home_container1">
                         <img src="/images/homes/luxhome3.jpg" alt="home" className="home_image" />
+                    </div>
+                    <div className="home_container2">
+                        <img src="/images/homes/luxhome2.jpg" alt="home" className="home_image" />
                     </div>
                 </div>
                 <div className="home-intro">
@@ -74,11 +74,11 @@ const Homepage = () => {
                     </div>
                 </div>
                 <div className="homepage-column">
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
-                    </div>
                     <div className="home_container1">
                         <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
+                    </div>
+                    <div className="home_container2">
+                        <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
                     </div>
                 </div>
                 <div className="homepage-column">
