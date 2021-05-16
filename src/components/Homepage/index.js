@@ -24,14 +24,30 @@ const Homepage = () => {
                 <div className="home-intro">
                     <div className="content_container">
                         <div className="home-intro_info">
-                            <h1>Handcraft Custom Homes</h1>
-                            <h3>Grossnickle Construction builds and Designs custom homes and Luxury Estates. Our highly experienced team led by Jon Grossnickle has the know-how to achieve your vision.</h3>
+                            <h1>Sycamore Custom Luxery Homes</h1>
+                            <h4>Sycamore Custom Luxery Homes builds and Designs custom homes and Luxury Estates. Our highly experienced team has the know-how to achieve your vision.</h4>
+                            <div className="banner-button">
+                                <h4>LEARN MORE</h4>
+                            </div>
                         </div>
                         <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
                     </div>
                     <div className="home-intro_images">
                         <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image" />
                         <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image" />
+                    </div>
+                </div>
+            </div>
+            <div className="homepage-row_2">
+                <div className="row2_container">
+                    <div className="home_container4">
+                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                    </div>
+                    <div className="home_container3">
+                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    </div>
+                    <div className="home_container4">
+                        <img src="/images/homes/luxhome7.jpg" alt="home" />
                     </div>
                 </div>
             </div>
@@ -46,6 +62,34 @@ const Homepage = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="homepage-row">
+                <div className="home-intro">
+                    <div className="content_container">
+                        <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
+                    </div>
+                    <div className="home-intro_images">
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image" />
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image" />
+                    </div>
+                </div>
+                <div className="homepage-column">
+                    <div className="home_container2">
+                        <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
+                    </div>
+                    <div className="home_container1">
+                        <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
+                    </div>
+                </div>
+                <div className="homepage-column">
+                    <div className="home_container2">
+                        <img src="/images/homes/luxhome2.jpg" alt="home" className="home_image" />
+                    </div>
+                    <div className="home_container1">
+                        <img src="/images/homes/luxhome3.jpg" alt="home" className="home_image" />
+                    </div>
+                </div>
+
             </div>
         </div>
     )
