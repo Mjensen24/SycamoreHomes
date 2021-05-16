@@ -23,6 +23,10 @@ const Homepage = () => {
                 </div>
                 <div className="home-intro">
                     <div className="content_container">
+                        <div className="home-intro_info">
+                            <h1>Handcraft Custom Homes</h1>
+                            <h3>Grossnickle Construction builds and Designs custom homes and Luxury Estates. Our highly experienced team led by Jon Grossnickle has the know-how to achieve your vision.</h3>
+                        </div>
                         <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
                     </div>
                     <div className="home-intro_images">
