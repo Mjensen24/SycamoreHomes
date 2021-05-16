@@ -10,7 +10,7 @@ import OurProcess from './components/OurProcess';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter classname="main">
       <NavBar />
       <Route path="/" exact={true}>
         <Homepage />

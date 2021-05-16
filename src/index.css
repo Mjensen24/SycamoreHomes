@@ -3,3 +3,10 @@
 * {
     font-family: 'Source Serif Pro', serif;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
