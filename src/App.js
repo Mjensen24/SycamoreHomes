@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Homepage from './components/Homepage';
 import NavBar from './components/NavBar';
@@ -26,6 +27,7 @@ function App() {
       <Route path="/contact" exact={true}>
         <Contact />
       </Route>
+      <Footer />
     </BrowserRouter>
   );
 }
