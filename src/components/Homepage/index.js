@@ -31,6 +31,10 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="homepage-banner">
+
+            </div>
         </div>
     )
 }

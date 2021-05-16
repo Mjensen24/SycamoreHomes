@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     /* background-color: darkgray; */
 }
 
 .homepage-row {
-    width: 1385px;
+    width: 100%;
     height: 600px;
     display: flex;
     justify-content: flex-start;
@@ -115,4 +115,10 @@
 
 .intro-image:hover {
     transform: scale(1.03);
+}
+
+.homepage-banner {
+    width: 100%;
+    height: 400px;
+    background-color: darkseagreen;
 }
