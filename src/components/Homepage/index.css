@@ -1,6 +1,7 @@
 .homepage-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 2000px;
     /* background-color: darkgray; */
@@ -118,7 +119,31 @@
 }
 
 .homepage-banner {
-    width: 100%;
+    width: 98.8%;
     height: 400px;
-    background-color: darkseagreen;
+    background: url("/src/images/happyfamily.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* opacity: 0.8; */
+}
+
+.homepage-banner {
+    color: white;
+}
+
+.banner {
+    height: 100%;
+    width: 600px;
+    background-color: #B77230;
+    opacity: 0.7;
+    position:absolute;
+    /* margin-left: 150px; */
+}
+
+.banner-content {
+    /* position:absolute; */
+}
+
+.banner-content h1, h3 {
+    margin: 0 auto;
 }

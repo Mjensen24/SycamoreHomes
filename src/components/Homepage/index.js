@@ -31,9 +31,12 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-
             <div className="homepage-banner">
-
+                <div className="banner-content">
+                    <h1>searching for the perfect lot?</h1>
+                    <h3>we are ready to help you find the lot you're looking for.</h3>
+                </div>
+                <div className="banner"></div>
             </div>
         </div>
     )
