@@ -9,7 +9,7 @@ const
                 <div className="footer-info_container">
                     <img src="../../../images/SCLHBlack.jpg" alt="test"></img>
                     <div className="footer-info">
-                        <h2>Explore</h2>
+                        <h3>Explore</h3>
                         <NavLink to={"gallery"}>
                             Gallery
                         </NavLink>
@@ -21,18 +21,22 @@ const
                         </NavLink>
                     </div>
                     <div className="footer-info">
-                        <h2>Explore</h2>
+                        <h3>Follow</h3>
                         <p>Instagram</p>
                         <p>Linkedin</p>
                         <p>Twitter</p>
                     </div>
-                    <div className="footer-info">
-                        <h2>Visit</h2>
-                        <p>7802 Dance Hall Road</p>
-                        <p>Frederick MD. 21701</p>
-                        <h2>New Buisness</h2>
-                        <p>Baberni2@aol.com</p>
-                        <p>301-748-1614</p>
+                    <div className="footer-contact">
+                        <div className="contact-column">
+                            <h3>Visit</h3>
+                            <p>7802 Dance Hall Road</p>
+                            <p>Frederick MD. 21701</p>
+                        </div>
+                        <div className="contact-column">
+                            <h3>New Buisness</h3>
+                            <p>Baberni2@aol.com</p>
+                            <p>301-748-1614</p>
+                        </div>
                     </div>
                 </div>
             </div>
