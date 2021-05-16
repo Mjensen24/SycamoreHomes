@@ -6,11 +6,11 @@ const Homepage = () => {
         <div className="homepage-container">
             <div className="homepage-row">
                 <div className="homepage-column">
-                    <div className="home_container1">
-                        <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
-                    </div>
                     <div className="home_container2">
                         <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
+                    </div>
+                    <div className="home_container1">
+                        <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
                     </div>
                 </div>
                 <div className="homepage-column">
@@ -32,11 +32,16 @@ const Homepage = () => {
                 </div>
             </div>
             <div className="homepage-banner">
-                <div className="banner-content">
-                    <h1>searching for the perfect lot?</h1>
-                    <h3>we are ready to help you find the lot you're looking for.</h3>
-                </div>
                 <div className="banner"></div>
+                <div className="banner-content">
+                    <div className="banner-boarder">
+                        <h1>SEARCHING FOR THE PERFECT LOT?</h1>
+                        <h4>WE ARE READY TO HELP YOU FIND THE LOT YOU'RE LOOKING FOR.</h4>
+                        <div className="banner-button">
+                            <h4>LEARN MORE</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
