@@ -6,15 +6,14 @@ import { useForm, ValidationError } from '@formspree/react';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("mnqlpbbe");
-  if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
-  }
+//   if (state.succeeded) {
+//       return <p>Thanks for joining!</p>;
+//   }
   return (
       <form onSubmit={handleSubmit}>
-      <label htmlFor="email">
-        Email Address
-      </label>
+      <label htmlFor="email"></label>
       <input
+        placeholder="Email"
         id="email"
         type="email" 
         name="email"
@@ -24,9 +23,21 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
+      <input
+        placeholder="Full Name"
+        id="name"
+        type="name" 
+        name="name"
+      />
+      <ValidationError 
+        prefix="name" 
+        field="name"
+        errors={state.errors}
+      />
       <textarea
         id="message"
         name="message"
+        placeholder="Personal message"
       />
       <ValidationError 
         prefix="Message" 

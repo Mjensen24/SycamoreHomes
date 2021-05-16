@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import ContactForm from '../ContactForm'
 import "./index.css"
 
 const
@@ -38,7 +39,10 @@ const
                             <p>301-748-1614</p>
                         </div>
                     </div>
-                    
+                    <div className='footer-form'>
+                        <h3>Contact</h3>
+                        <ContactForm/>
+                    </div>
                 </div>
             </div>
         )
