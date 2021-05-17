@@ -15,10 +15,16 @@ const NavBar = () => {
                         <h2>Home</h2>
                     </NavLink>
                 </li>
-                <li className="link">
+                <li className="link about-us">
                     <NavLink to={"about-us"}>
                         <h2>About Us</h2>
                     </NavLink>
+                    <ul className="dropdown">
+                        <li className="dropdown-link"><NavLink to={"bunny"}>Bunny</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"larry"}>Lary</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"larry"}>Lary</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"larry"}>Lary</NavLink></li>
+                    </ul>
                 </li>
                 <li className="link">
                     <NavLink to={"gallery"}>

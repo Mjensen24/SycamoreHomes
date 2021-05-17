@@ -59,3 +59,17 @@ a > h2:hover{
     color: rgb(204, 204, 204);
     transition: 0.3s;
 }
+
+
+.dropdown {
+    display: none;
+    background-color: blueviolet;
+    position:absolute;
+    transition: 0.2s;
+    /* display: none; */
+}
+
+.about-us:hover .dropdown {
+    display: inherit;
+    transition: 0.2s;
+}

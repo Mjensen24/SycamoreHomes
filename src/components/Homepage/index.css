@@ -52,12 +52,12 @@
 .home_container1 img {
     height: 97.5%;
     width: 95%;
-    transform: .5s ease;
+    /* transform: .5s ease; */
 }
 
-.home_container1:hover img {
+/* .home_container1:hover img {
     transform: scale(1.01);
-}
+} */
 
 .home_container2 {
     display: flex;
@@ -72,9 +72,9 @@
     height: 94.5%;
 }
 
-.home_container2:hover img {
+/* .home_container2:hover img {
     transform: scale(1.01);
-}
+} */
 
 .home-intro {
     display: flex;
@@ -151,7 +151,7 @@
 }
 
 .intro-image:hover {
-    transform: scale(1.03);
+    /* transform: scale(1.03); */
 }
 
 .homepage-banner {
