@@ -30,6 +30,16 @@ const NavBar = () => {
                         <h2>Our Process</h2>
                     </NavLink>
                 </li>
+                <li className="link">
+                    <NavLink to={"license"}>
+                        <h2>Licenses</h2>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"references"}>
+                        <h2>References</h2>
+                    </NavLink>
+                </li>
                 <li className="link" >
                     <NavLink to={"contact"}>
                         <h2>Contact Us</h2>

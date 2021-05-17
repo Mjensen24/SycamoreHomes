@@ -199,8 +199,13 @@
     text-align: center;
 }
 
-.banner-boarder > h1, h3 {
+.banner-boarder > h1 {
     margin: 0 auto;
+    color: black;
+}
+
+.banner-boarder > h4 {
+    color: black;
 }
 
 .banner-button {
