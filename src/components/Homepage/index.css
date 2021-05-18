@@ -94,7 +94,8 @@
     align-items: center;
     flex-direction: column;
     position: absolute;
-    height: 220px;
+    height: 25%;
+    /* height: 220px; */
     width: 45%;
     background-color: rgba(183, 114, 49, 0.8);
     text-align: center;
@@ -311,7 +312,9 @@
     height: 100%;
     width: 98%;
     overflow: hidden;
-    background-color: white;
+    background: url("/src/images/happyfamily.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .home-intro_content3 {
