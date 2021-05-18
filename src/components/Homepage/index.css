@@ -97,7 +97,7 @@
     height: 25%;
     /* height: 220px; */
     width: 45%;
-    background-color: rgba(183, 114, 49, 0.8);
+    background-color: rgba(229, 159, 102, 0.9);
     text-align: center;
 }
 
@@ -163,7 +163,7 @@
 .banner {
     height: 400px;
     width: 600px;
-    background-color: #B77230;
+    background-color: rgba(229, 159, 102);
     opacity: 0.7;
     position:absolute;
     margin-left: 150px;
@@ -214,7 +214,7 @@
 
 .banner-button:hover {
     background-color: white;
-    color: #B77230;
+    color: rgb(199, 133, 79);
     transition: 0.2s;
     cursor: pointer;
 }
@@ -305,17 +305,6 @@
     width: 50%;
 }
 
-.content_container3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 98%;
-    overflow: hidden;
-    background: url("/src/images/happyfamily.jpg") center;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 .home-intro_content3 {
     height: 100%;
@@ -394,4 +383,64 @@
     width: 98%;
     height: 98%;
     object-fit:cover;
+}
+
+.content_container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 98%;
+    overflow: hidden;
+    background: url("/src/images/luxhome10.jpg") right;
+    background-size: fill;
+    background-attachment: fixed;
+}
+
+.bottom-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88%;
+    width: 88%;
+    background-color: rgba(229, 159, 102, 0.92);
+}
+
+.bottom-banner_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    width: 96%;
+    border: 3px solid black;
+}
+
+.bottom-info_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 43%;
+    width: 85%;
+}
+
+.bottom-info_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 44%;
+    text-align: left;
+    color: black;
+}
+
+.bottom-info_box > h1 {
+    margin-bottom: 0;
+}
+
+.bottom-info_box > h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 15px;
 }

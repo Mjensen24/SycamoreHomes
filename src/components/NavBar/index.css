@@ -24,12 +24,12 @@
     padding-top: 23px;
 }
 
-.navbar-logo > img:hover {
-    height: 96.5%;
-    width: 96.5%;
-    transition: 0.3s;
+/* .navbar-logo > img:hover {
+    height: 88.5%;
+    width: 100.5%;
+    transition: 1s;
 
-}
+} */
 
 .navbar-links {
     display: flex;
