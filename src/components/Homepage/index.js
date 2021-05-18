@@ -77,20 +77,14 @@ const Homepage = () => {
                 </div>
             </div>
             <div className="homepage-row">
-                <div className="homepage-column">
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
+                <div className="home-intro2">
+                    <div className="home-intro_images">
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
                     </div>
-                    <div className="home_container1">
-                        <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
-                    </div>
-                </div>
-                <div className="homepage-column">
-                    <div className="home_container1">
-                        <img src="/images/homes/luxhome3.jpg" alt="home" className="home_image" />
-                    </div>
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome2.jpg" alt="home" className="home_image" />
+                    <div className="home-intro_images2">
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
                     </div>
                 </div>
                 <div className="home-intro3">
