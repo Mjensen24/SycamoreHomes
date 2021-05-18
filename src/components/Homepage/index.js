@@ -63,15 +63,15 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
-            <div className="homepage-row_2">
-                <div className="row2_container">
+            <div className="homepage-row_3">
+                <div className="row3_container">
                     <div className="home_container3">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
                     </div>
-                    <div className="home_container4">
+                    <div className="home_container5">
                         <img src="/images/homes/luxhome6.jpg" alt="home" />
                     </div>
-                    <div className="home_container4">
+                    <div className="home_container5">
                         <img src="/images/homes/luxhome7.jpg" alt="home" />
                     </div>
                 </div>
@@ -88,12 +88,12 @@ const Homepage = () => {
                 </div>
                 <div className="home-intro3">
                     <div className="content_container3">
-                        <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content3" />
+                        {/* <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content3" /> */}
                     </div>
-                    <div className="home-intro_images2">
+                    {/* <div className="home-intro_images2">
                         <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image3" />
                         <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image3" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
