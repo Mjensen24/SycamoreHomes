@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 1940px;
-    /* background-color: darkgray; */
+    /* height: 1940px; */
+    height: 2290px;
 }
 
 .homepage-row {
@@ -13,7 +13,6 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    /* background-color: darkolivegreen; */
 }
 
 .homepage-column {
@@ -29,7 +28,6 @@
     align-items: center;
     width: 350px;
     height: 400px;
-    /* background-color: darkgreen; */
 }
 
 .home_image {
@@ -37,7 +35,6 @@
     width: 95%;
     object-fit:cover;
     transition: 0.5s;
-    /* background-color: darkkhaki; */
 }
 
 .home_container1{
@@ -46,7 +43,6 @@
     width: 98%;
     height: 100%;
     overflow: hidden;
-    /* background-color: darkgreen; */
 }
 
 .home_container1 img {
@@ -65,7 +61,6 @@
     width: 98%;
     height: 50%;
     overflow: hidden;
-    /* background-color: darkgreen; */
 }
 
 .home_container2 > img {
@@ -81,7 +76,6 @@
     flex-direction: column;
     align-items: center;
     width: 50%;
-    /* background-color: darkgreen; */
 }
 
 .content_container {
@@ -91,7 +85,6 @@
     height: 50%;
     width: 98%;
     overflow: hidden;
-    /* color: white; */
 }
 
 
@@ -126,7 +119,6 @@
     width: 100%;
     object-fit:cover;
     transition: 0.5s;
-    /* background-color: darkkhaki; */
 }
 
 /* .content_container:hover img {
@@ -141,14 +133,12 @@
     height: 48%;
     width: 98%;
     overflow: hidden;
-    /* background-color: darkseagreen; */
 }
 
 .intro-image {
     width: 48.3%;
     height: 95%;
     transition: 0.5s;
-    /* background-color: darkturquoise; */
 }
 
 .intro-image:hover {
@@ -161,7 +151,7 @@
     background: url("/src/images/happyfamily.jpg") center;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 15px;
+    margin-bottom: 17.5px;
     /* opacity: 0.8; */
 }
 
@@ -238,7 +228,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    /* background-color: darkolivegreen; */
 }
 
 .row2_container {
@@ -275,4 +264,86 @@
     width: 98%;
     height: 98%;
     object-fit:cover;
+}
+
+.intro-image2 {
+    width: 49%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.home-intro2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.content_container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 49%;
+    width: 98%;
+    overflow: hidden;
+}
+
+.home-intro_content2 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    transition: 0.5s;
+}
+
+.home-intro3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.content_container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48%;
+    width: 98%;
+    overflow: hidden;
+}
+
+.home-intro_content3 {
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    transition: 0.5s;
+}
+
+.intro-image3 {
+    width: 49%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.home-intro_images2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    height: 49%;
+    width: 98%;
+    overflow: hidden;
+}
+
+.homepage-banner2 {
+    width: 98.8%;
+    height: 400px;
+    /* background-color: #b87132; */
+    background: url("/src/images/happyfamily.jpg") center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 17.5px;
+    margin-bottom: 17.5px;
+    /* opacity: 0.8; */
 }

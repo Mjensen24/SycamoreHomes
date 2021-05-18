@@ -71,6 +71,7 @@ a > h2:hover{
     transition: 0.2s;
     list-style: none;
     padding: 0;
+    transition: 0.2s;
 }
 
 .dropdown-link {
