@@ -22,6 +22,7 @@ const NavBar = () => {
                     <ul className="dropdown">
                         <li className="dropdown-link"><NavLink to={"bunny"}>Bunny</NavLink></li>
                         <li className="dropdown-link"><NavLink to={"larry"}>Lary</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"bunny"}>Bunny</NavLink></li>
                     </ul>
                 </li>
                 <li className="link">
