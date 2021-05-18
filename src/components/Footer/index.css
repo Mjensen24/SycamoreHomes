@@ -18,7 +18,7 @@
 }
 
 .footer-info_container > img {
-    height: 55%;
+    height: 58%;
     width: 29%;
     margin: 0;
 }
@@ -74,7 +74,7 @@
 
 .footer-form {
     width: 25%;
-    height: 70%;
+    height: 75%;
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 30px;
