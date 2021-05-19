@@ -34,17 +34,22 @@
 .footer-info a {
     text-decoration: none;
     color: white;
+    font-family: sans-serif;
+    font-size: 14.5px;
 }
 
 .footer-info > h3 {
     font-size: 19.5px;
     color: #E59F66;;
     margin: 0;
+
 }
 
 .footer-info > p {
     color: white;
     margin: 0;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 
 .footer-contact{
@@ -70,6 +75,8 @@
 .contact-column > p {
     color: white;
     margin: 0;
+    font-family: sans-serif;
+    font-size: 14.5px;
 }
 
 .footer-form {
