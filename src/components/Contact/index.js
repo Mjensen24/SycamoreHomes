@@ -3,7 +3,21 @@ import "./index.css"
 
 const Contact = () => {
     return (
-        <h1>Contact</h1>
+        <div className="contact-container">
+            <div className="contact-info_container">
+                <h1>GET IN TOUCH</h1>
+                <div className="contact-info_column">
+
+                </div>
+                <div className="contact-info_column">
+
+                </div>
+                <div className="contact-info_column">
+
+                </div>
+
+            </div>
+        </div>
     )
 }
 
