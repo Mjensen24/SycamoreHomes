@@ -18,8 +18,8 @@
 }
 
 .footer-info_container > img {
-    height: 68%;
-    width: 28%;
+    height: 45%;
+    width: 25%;
     margin: 0;
 }
 
@@ -38,7 +38,7 @@
 
 .footer-info > h3 {
     font-size: 22px;
-    color: rgba(183, 114, 49);;
+    color: #E59F66;;
     margin: 0;
 }
 
@@ -63,7 +63,7 @@
 
 .contact-column > h3 {
     font-size: 22px;
-    color: rgba(183, 114, 49);;
+    color: #E59F66;;
     margin: 0;
 }
 
@@ -82,7 +82,7 @@
 
 .footer-form > h3 {
     font-size: 22px;
-    color: rgba(183, 114, 49);;
+    color: #E59F66;;
     margin: 0;
 }
 

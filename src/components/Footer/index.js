@@ -8,7 +8,7 @@ const
         return (
             <div className="footer-container">
                 <div className="footer-info_container">
-                    <img src="../../../images/SCLHBlack.jpg" alt="test"></img>
+                    <img src="../../../images/newSClogo.jpg" alt="test"></img>
                     <div className="footer-info">
                         <h3>Explore</h3>
                         <NavLink to={"gallery"}>
@@ -41,7 +41,7 @@ const
                     </div>
                     <div className='footer-form'>
                         <h3>Contact</h3>
-                        <ContactForm/>
+                        <ContactForm />
                     </div>
                 </div>
             </div>

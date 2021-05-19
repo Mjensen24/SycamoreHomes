@@ -89,12 +89,32 @@ const Homepage = () => {
                 </div>
                 <div className="home-intro3">
                     <div className="content_container3">
+                        <div className="bottom-banner">
+                            <div className="bottom-banner_info">
+                                <div className="bottom-info_row">
+                                    <div className="bottom-info_box">
+                                        <h1>High-End Features</h1>
+                                        <h4>We offer you High-End standard features. find out how high our "standards" truly are.</h4>
+                                    </div>
+                                    <div className="bottom-info_box">
+                                        <h1>Concierge Guidance</h1>
+                                        <h4>we guide you through every step of the home building process, including design, selections and constant communication.</h4>
+                                    </div>
+                                </div>
+                                <div className="bottom-info_row">
+                                    <div className="bottom-info_box">
+                                        <h1>Experienced craftsman</h1>
+                                        <h4>A Site Supervisor & Master Carpenter to oversee your project who is intimately familiar with the construction progress of your home.</h4>
+                                    </div>
+                                    <div className="bottom-info_box">
+                                        <h1>Outstanding Service</h1>
+                                        <h4>we understand the value of consistent communication and we work hard to ensure the entire construction experience is extraordinary!</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         {/* <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content3" /> */}
                     </div>
-                    {/* <div className="home-intro_images2">
-                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image3" />
-                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image3" />
-                    </div> */}
                 </div>
             </div>
         </div>
