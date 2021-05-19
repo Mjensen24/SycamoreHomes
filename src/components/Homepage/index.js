@@ -69,8 +69,9 @@ const Homepage = () => {
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
                     </div>
                     <div className="home_container6">
-                        <div className="bottom-banner">
-                        </div>
+                        {/* <div className="bottom-banner">
+                            <h1>some text</h1>
+                        </div> */}
                         {/* <img src="/images/homes/luxhome6.jpg" alt="home" /> */}
                     </div>
                     <div className="home_container5">
@@ -81,8 +82,8 @@ const Homepage = () => {
             <div className="homepage-row">
                 <div className="home-intro2">
                     <div className="home-intro_images">
-                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
-                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome1.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome2.jpg" alt="home" className="intro-image2" />
                     </div>
                     <div className="home-intro_images2">
                         <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
