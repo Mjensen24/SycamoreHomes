@@ -30,7 +30,7 @@ const
                     <div className="footer-contact">
                         <div className="contact-column">
                             <h3>Visit</h3>
-                            <p>7802 Dance Hall Road</p>
+                            <p>1234 Rolling Hill Road</p>
                             <p>Frederick MD. 21701</p>
                         </div>
                         <div className="contact-column">
