@@ -63,33 +63,39 @@ const Homepage = () => {
                     </div>
                 </div>
             </div>
+            <div className="homepage-row_3">
+                <div className="row3_container">
+                    <div className="home_container3">
+                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    </div>
+                    <div className="home_container5">
+                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                    </div>
+                    <div className="home_container5">
+                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                    </div>
+                </div>
+            </div>
             <div className="homepage-row">
-                <div className="home-intro">
-                    <div className="content_container">
-                        <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
-                    </div>
+                <div className="home-intro2">
                     <div className="home-intro_images">
-                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image" />
-                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image" />
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
+                    </div>
+                    <div className="home-intro_images2">
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
                     </div>
                 </div>
-                <div className="homepage-column">
-                    <div className="home_container1">
-                        <img src="/images/homes/homeimage.jpeg" alt="home" className="home_image" />
+                <div className="home-intro3">
+                    <div className="content_container3">
+                        {/* <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content3" /> */}
                     </div>
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome1.jpg" alt="home" className="home_image" />
-                    </div>
+                    {/* <div className="home-intro_images2">
+                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image3" />
+                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image3" />
+                    </div> */}
                 </div>
-                <div className="homepage-column">
-                    <div className="home_container2">
-                        <img src="/images/homes/luxhome2.jpg" alt="home" className="home_image" />
-                    </div>
-                    <div className="home_container1">
-                        <img src="/images/homes/luxhome3.jpg" alt="home" className="home_image" />
-                    </div>
-                </div>
-
             </div>
         </div>
     )

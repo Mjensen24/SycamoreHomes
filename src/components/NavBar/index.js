@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
         <div className="navbar-container">
             <div className="navbar-logo">
-                <img src="../../../images/sycamore.jpg" alt="test"></img>
+                <img src="../../../images/SCLHBlack.jpg" alt="test"></img>
             </div>
             <ul className="navbar-links">
                 <li className="link">
@@ -15,10 +15,15 @@ const NavBar = () => {
                         <h2>Home</h2>
                     </NavLink>
                 </li>
-                <li className="link">
+                <li className="link about-us">
                     <NavLink to={"about-us"}>
                         <h2>About Us</h2>
                     </NavLink>
+                    <ul className="dropdown">
+                        <li className="dropdown-link"><NavLink to={"bunny"}>Bunny</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"larry"}>Lary</NavLink></li>
+                        <li className="dropdown-link"><NavLink to={"bunny"}>Bunny</NavLink></li>
+                    </ul>
                 </li>
                 <li className="link">
                     <NavLink to={"gallery"}>
@@ -28,6 +33,16 @@ const NavBar = () => {
                 <li className="link">
                     <NavLink to={"process"}>
                         <h2>Our Process</h2>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"license"}>
+                        <h2>Licenses</h2>
+                    </NavLink>
+                </li>
+                <li className="link">
+                    <NavLink to={"references"}>
+                        <h2>References</h2>
                     </NavLink>
                 </li>
                 <li className="link" >
