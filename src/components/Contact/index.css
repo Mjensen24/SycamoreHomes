@@ -1,7 +1,7 @@
 .contact-container {
-    width: 100%;
+    width: 153.3%;
     height: 2000px;
-    background-color: white;
+    background-color: black;
     /* background-image: linear-gradient(black, yellow); */
 }
 
@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1500px;
+    /* width: 1500px; */
     height: 590px;
     background: url("/src/images/test1.jpg");
     background-size: fill;
