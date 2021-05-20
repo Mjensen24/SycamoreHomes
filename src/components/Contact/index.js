@@ -37,11 +37,13 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-us_container">
-                <div className="contact-us_column">
+                <div className="contact-us_column_left">
                     <h1>Thank you</h1>
-                    <h4>We appreciate your interest in Grossnickle Construction. For questions about building your dream home, available properties, <br /> lots, or to build on a lot you already own, simply fill out our form or call our office.</h4>
+                    <h4>We appreciate your interest in Sycamore Custom Luxery Homes. For questions about building your dream home, available properties, <br /> lots, or to build on a lot you already own, simply fill out our form or call our office.</h4>
+                    <h3>Bernice Printz <br /> Co-Owener/Designer</h3>
+                    <img src="/images/bunny.jpg" alt="Bunny" />
                 </div>
-                <div className="contact-us_column">
+                <div className="contact-us_column_right">
                     <h1>Leave us a message</h1>
                     <div className="contact-us_form">
                         <ContactForm />
