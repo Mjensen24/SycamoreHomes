@@ -2,6 +2,7 @@ import React from 'react'
 import "./index.css"
 import { GoLocation } from 'react-icons/go';
 import { HiPhone, HiOutlineMail } from 'react-icons/hi';
+import ContactForm from '../ContactForm';
 
 const Contact = () => {
     return (
@@ -34,6 +35,19 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="contact-us_container">
+                <div className="contact-us_column">
+                    <h1>hello thank you</h1>
+                    <h4>We appreciate your interest in Grossnickle Construction. For questions about building your dream home, available properties, <br /> lots, or to build on a lot you already own, simply fill out our form or call our office.</h4>
+                </div>
+                <div className="contact-us_column">
+                    <h4>Leave us a message</h4>
+                    <div className="contact-us_form">
+                        <ContactForm />
+                    </div>
+                </div>
+
             </div>
         </div>
     )

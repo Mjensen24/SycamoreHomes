@@ -37,7 +37,7 @@ function ContactForm() {
       <textarea
         id="message"
         name="message"
-        placeholder="Personal message"
+        placeholder="Write your message here"
       />
       <ValidationError
         prefix="Message"
