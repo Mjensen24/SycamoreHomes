@@ -1,7 +1,7 @@
 import React from 'react'
 import "./index.css"
-// import { GoLocation } from 'react-icons/go';
-// import { HiPhone, HiOutlineMail } from 'react-icons/hi';
+import { GoLocation } from 'react-icons/go';
+import { HiPhone, HiOutlineMail } from 'react-icons/hi';
 import ContactForm from '../ContactForm';
 
 const Contact = () => {
@@ -18,28 +18,36 @@ const Contact = () => {
             <div className="contact-column_bottom">
                 <div className="contact-us_container">
                     <h1>GET IN TOUCH</h1>
-                    <h4>Hey! We are looking forward to starting a project with you!</h4>
-                    <div>
-                        <h3>Bernice Printz <br /> Co-Owener/Designer</h3>
-                        {/* <img src="/images/bunny.jpg" alt="Bunny" /> */}
-                    </div>
+                    <h2>We are looking forward to starting a project with you!</h2>
                 </div>
+                {/* <div className="contact-bunny_container">
+                    <div className="contact-bunny">
+                        <div className="bunny-icon"></div>
+
+                    </div>
+                </div> */}
             </div>
             <div className="contact-info_container">
                 <div className="contact-info_column">
-                    <h3>PHONE</h3>
-                    <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
-                    <p>301-748-1614</p>
+                    <div className="contact-column_info">
+                        <h3><HiPhone />PHONE</h3>
+                        <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
+                        <p>301-748-1614</p>
+                    </div>
                 </div>
                 <div className="contact-info_column">
-                    <h3>ADDRESS</h3>
-                    <h4>Sycamore Custom Luxery <br /> Homes</h4>
-                    <p>1234 Rolling Hill Road <br /> Frederick MD. 21701</p>
+                    <div className="contact-column_info">
+                        <h3><GoLocation />ADDRESS</h3>
+                        <h4>Sycamore Custom Luxery <br /> Homes</h4>
+                        <p>1234 Rolling Hill Road <br /> Frederick MD. 21701</p>
+                    </div>
                 </div>
                 <div className="contact-info_column">
-                    <h3>EMAIL</h3>
-                    <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
-                    <p>Baberni2@aol.com</p>
+                    <div className="contact-column_info">
+                        <h3><HiOutlineMail />EMAIL</h3>
+                        <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
+                        <p>Baberni2@aol.com</p>
+                    </div>
                 </div>
             </div>
         </div>
