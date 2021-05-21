@@ -34,7 +34,7 @@
 .footer-info a {
     text-decoration: none;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 15px;
 }
 
@@ -42,13 +42,14 @@
     font-size: 19.5px;
     color: #E59F66;;
     margin: 0;
+    font-family: 'Karla', sans-serif;
 
 }
 
 .footer-info > p {
     color: white;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 15px;
 }
 
@@ -70,12 +71,13 @@
     font-size: 20px;
     color: #E59F66;;
     margin: 0;
+    font-family: 'Karla', sans-serif;
 }
 
 .contact-column > p {
     color: white;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 14.5px;
 }
 
@@ -91,6 +93,7 @@
     font-size: 20px;
     color: #E59F66;;
     margin: 0;
+    font-family: 'Karla', sans-serif;
 }
 
 .footer-form > form {

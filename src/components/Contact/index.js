@@ -26,11 +26,21 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-info_container">
-                <div className="contact-info">
-
+                <div className="contact-info_column">
+                    <h3>PHONE</h3>
+                    <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
+                    <p>301-748-1614</p>
                 </div>
-                <div className="contact-info"></div>
-                <div className="contact-info"></div>
+                <div className="contact-info_column">
+                    <h3>ADDRESS</h3>
+                    <h4>Sycamore Custom Luxery <br /> Homes</h4>
+                    <p>1234 Rolling Hill Road <br /> Frederick MD. 21701</p>
+                </div>
+                <div className="contact-info_column">
+                    <h3>EMAIL</h3>
+                    <h4>Bernice Printz <br /> Co-Owner/Designer</h4>
+                    <p>Baberni2@aol.com</p>
+                </div>
             </div>
         </div>
     )
