@@ -1,13 +1,44 @@
 import React from 'react'
 import "./index.css"
-import { GoLocation } from 'react-icons/go';
-import { HiPhone, HiOutlineMail } from 'react-icons/hi';
+// import { GoLocation } from 'react-icons/go';
+// import { HiPhone, HiOutlineMail } from 'react-icons/hi';
 import ContactForm from '../ContactForm';
 
 const Contact = () => {
     return (
         <div className="contact-container">
+            <div className="contact-column_top">
+                <div className="contact-form_container">
+                    <h1>Leave us a message</h1>
+                    <div className="contact-us_form">
+                        <ContactForm />
+                    </div>
+                </div>
+            </div>
+            <div className="contact-column_bottom">
+                <div className="contact-us_container">
+                    <h1>GET IN TOUCH</h1>
+                    <h4>Hey! We are looking forward to starting a project with you!</h4>
+                    <div>
+                        <h3>Bernice Printz <br /> Co-Owener/Designer</h3>
+                        {/* <img src="/images/bunny.jpg" alt="Bunny" /> */}
+                    </div>
+                </div>
+            </div>
             <div className="contact-info_container">
+                <div className="contact-info">
+
+                </div>
+                <div className="contact-info"></div>
+                <div className="contact-info"></div>
+            </div>
+        </div>
+    )
+}
+
+export default Contact;
+
+{/* <div className="contact-info_container">
                 <h1>GET IN TOUCH</h1>
                 <div className="contact-column_container">
                     <div className="contact-info_column left">
@@ -49,9 +80,4 @@ const Contact = () => {
                         <ContactForm />
                     </div>
                 </div>
-            </div>
-        </div>
-    )
-}
-
-export default Contact;
+            </div> */}
