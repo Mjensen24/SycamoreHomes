@@ -385,7 +385,7 @@
     height: 100%;
     width: 98%;
     overflow: hidden;
-    background: url("/src/images/luxhome10.jpg") right;
+    background: url("/src/images/luxhome10.jpg") right 75px;
     background-size: fill;
     background-attachment: fixed;
 }
