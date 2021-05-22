@@ -3,6 +3,7 @@ import "./index.css"
 import { IoRocketSharp } from 'react-icons/io5';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaTrophy } from 'react-icons/fa';
+import { NavLink } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -60,7 +61,22 @@ const AboutUs = () => {
                     <div className="staff-info">
                         <div className="staff-info_inner">
                             <div className="staff-info_front">
-                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
+                            </div>
+                            <div className="staff-info_back">
+                                <h1>Bernice Bare</h1>
+                                <h3>Co-Owner/Designer</h3>
+                                <p>Works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.She is there to provide assistance with every important detail and communicates frequently with weekly reporting. Bernice is also the point person for all permitting and materials handling</p>
+                                <div className="staff_learn-more">
+                                    <NavLink to={"bunny"}>Learn More</NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="staff-container">
+                    <div className="staff-info">
+                        <div className="staff-info_inner">
+                            <div className="staff-info_front">
                             </div>
                             <div className="staff-info_back">
                                 <h1>John Doe</h1>
@@ -74,21 +90,6 @@ const AboutUs = () => {
                     <div className="staff-info">
                         <div className="staff-info_inner">
                             <div className="staff-info_front">
-                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
-                            </div>
-                            <div className="staff-info_back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
-                                <p>We love that guy</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="staff-container">
-                    <div className="staff-info">
-                        <div className="staff-info_inner">
-                            <div className="staff-info_front">
-                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
                             </div>
                             <div className="staff-info_back">
                                 <h1>John Doe</h1>
