@@ -57,7 +57,46 @@ const AboutUs = () => {
             </div>
             <div className="about-row_3">
                 <div className="staff-container">
-
+                    <div className="staff-info">
+                        <div className="staff-info_inner">
+                            <div className="staff-info_front">
+                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
+                            </div>
+                            <div className="staff-info_back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="staff-container">
+                    <div className="staff-info">
+                        <div className="staff-info_inner">
+                            <div className="staff-info_front">
+                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
+                            </div>
+                            <div className="staff-info_back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="staff-container">
+                    <div className="staff-info">
+                        <div className="staff-info_inner">
+                            <div className="staff-info_front">
+                                {/* <img src="/images/homes/luxhome2.jpg" alt="home"></img> */}
+                            </div>
+                            <div className="staff-info_back">
+                                <h1>John Doe</h1>
+                                <p>Architect & Engineer</p>
+                                <p>We love that guy</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
