@@ -55,6 +55,11 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <div className="about-row_3">
+                <div className="staff-container">
+
+                </div>
+            </div>
         </div>
     )
 }
