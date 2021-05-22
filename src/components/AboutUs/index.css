@@ -95,6 +95,20 @@
     border: 3px solid black;
 }
 
+.column1-info > svg {
+    margin: 0;
+    height: 45px;
+    width: 45px;
+}
+
+.column1-info > h2 {
+    margin: 0;
+}
+
+.column1-info > h4 {
+    margin: 0;
+}
+
 /* ABOUT COLUMN 2 */
 
 .about-column_2 {
