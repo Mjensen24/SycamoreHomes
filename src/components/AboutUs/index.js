@@ -38,7 +38,22 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about-column_2"></div>
+                <div className="about-column_2">
+                    <div className="column2-info_container">
+                        {/* <div className="column2-info_right">
+                            <h1>We’ve established long-term, successful relationships with many local vendors, as well as McLane Financial.  We are a licensed and approved builder with McLane.</h1>
+                        </div>
+                        <div className="column2-info_left">
+                            <h1>We specialize in building energy efficient homes that includes duct blaster test air sealing with 3rd party installation inspections plus a door blower test with official certification of passing energy efficiency.</h1>
+                        </div>
+                        <div className="column2-info_right">
+                            <h1>We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years combined of successful management of residential and commercial construction projects.</h1>
+                        </div>
+                        <div className="column2-info_left">
+                            <h1>We have a career history of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization, effective cost engineering, project management and vendor relations. </h1>
+                        </div> */}
+                    </div>
+                </div>
             </div>
         </div>
     )
