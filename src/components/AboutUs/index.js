@@ -14,13 +14,22 @@ const AboutUs = () => {
             <div className="about-row_2">
                 <div className="about-column_1">
                     <div className="column1-info_container">
-
+                        <div className="column1-info">
+                            <h2>Innovators</h2>
+                            <h4>You'll find that We're always in the pursuit of exceeding your expectations. We're always thinking outside the box.</h4>
+                        </div>
                     </div>
                     <div className="column1-info_container">
-
+                        <div className="column1-info">
+                            <h2>Expert Team</h2>
+                            <h4>Your project will be handled by our trusted experts. We have hand selected the most experienced professionals to work for you.</h4>
+                        </div>
                     </div>
                     <div className="column1-info_container">
-
+                        <div className="column1-info">
+                            <h2>Over 20 Years of Experience</h2>
+                            <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4>
+                        </div>
                     </div>
                 </div>
                 <div className="about-column_2"></div>
