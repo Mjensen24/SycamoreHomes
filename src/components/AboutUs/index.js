@@ -66,9 +66,9 @@ const AboutUs = () => {
                                 <h1>Bernice Bare</h1>
                                 <h3>Co-Owner/Designer</h3>
                                 <p>Works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.She is there to provide assistance with every important detail and communicates frequently with weekly reporting. Bernice is also the point person for all permitting and materials handling</p>
-                                {/* <div className="staff_learn-more">
+                                <div className="staff_learn-more">
                                     <NavLink to={"bunny"}>Learn More</NavLink>
-                                </div> */}
+                                </div>
                             </div>
                         </div>
                     </div>
