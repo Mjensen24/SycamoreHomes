@@ -23,7 +23,6 @@
     margin-left: 110px;
     width: 70%;
     height: 100%;
-    /* color: #E59F66; */
     color: white;
 }
 
@@ -40,6 +39,7 @@
     padding-top: 15px;
     font-family: 'Karla', sans-serif;
 }
+/* USING 3RD PARTY REACT COMPONENTS VIA CHAKRA UI STARTING BELLOW */
 
 /* GALLERY TABS */
 
@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 1000px;
+    height: 1230px;
     width: 100%;
 }
 
@@ -58,7 +58,6 @@
     flex-direction: row;
     height: 100%;
     width: 98%;
-    background-color: red;
 }
 
 /* TAB NAVBAR */
@@ -72,14 +71,26 @@
 }
 
 .chakra-tabs__tab {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left; */
     height: 40px;
     width: 100%;
-    background-color: royalblue;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    border: none;
+    /* color: white; */
+    color: #E59F66;
+    background-color: black;
 }
+
+
 
 /* TAB CONTENT */
 
 .chakra-tabs__tab-panels {
     display: flex;
-    background-color: salmon;
+    /* background-color: salmon; */
+    transition: 1s;
 }
