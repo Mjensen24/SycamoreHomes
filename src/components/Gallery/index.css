@@ -67,22 +67,29 @@
     flex-direction: column;
     height: 100%;
     background-color: black;
-    width: 180px;
+    width: 200px;
 }
 
 .chakra-tabs__tab {
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    text-align: left; */
-    height: 40px;
-    width: 100%;
-    font-family: 'Karla', sans-serif;
-    font-size: 18px;
+    justify-content: center;
+    text-align: right;
+    height: 45px;
+    width: 95%;
     border: none;
-    /* color: white; */
     color: #E59F66;
+    /* color: white; */
     background-color: black;
+}
+
+.chakra-tabs__tab > h4 {
+    width: 100%;
+    text-align: right;
+    font-size: 19px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+    margin: 0;
 }
 
 

@@ -14,15 +14,15 @@ const Gallery = () => {
             <div className="gallery-tab_container">
                 <Tabs variant="soft-rounded" colorScheme="green">
                     <TabList>
-                        <Tab>Basement</Tab>
-                        <Tab>Living Room</Tab>
-                        <Tab>Master Bedroom</Tab>
-                        <Tab>Master Bathroom</Tab>
-                        <Tab>Patio</Tab>
-                        <Tab>Kitchen</Tab>
-                        <Tab>Master Bathroom</Tab>
-                        <Tab>Patio</Tab>
-                        <Tab>Kitchen</Tab>
+                        <Tab><h4>Basement</h4></Tab>
+                        <Tab><h4>Living Room</h4></Tab>
+                        <Tab><h4>Master Bedroom</h4></Tab>
+                        <Tab><h4>Master Bathroom</h4></Tab>
+                        <Tab><h4>Patio</h4></Tab>
+                        <Tab><h4>Kitchen</h4></Tab>
+                        <Tab><h4>Master Bathroom</h4></Tab>
+                        <Tab><h4>Patio</h4></Tab>
+                        <Tab><h4>Kitchen</h4></Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
