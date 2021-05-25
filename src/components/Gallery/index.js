@@ -26,47 +26,144 @@ const Gallery = () => {
                     </TabList>
                     <TabPanels>
                         <TabPanel>
-                            <div className="homepage-row">
-                                <div className="home-intro2">
-                                    <div className="home-intro_images">
-                                        <img src="/images/homes/luxhome1.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome2.jpg" alt="home" className="intro-image2" />
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
                                     </div>
-                                    <div className="home-intro_images2">
-                                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
                                     </div>
-                                </div>
-                                <div className="home-intro3">
-                                    <div className="content_container3">
+                                    <div className="home_container9">
+                                        <div className="bottom-banner">
+                                            <div className="bottom-banner_info">
+                                                <div className="gallery-header">
+                                                    <h1>Basement</h1>
+                                                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus mauris, mollis id metus at, posuere rutrum enim. Nunc et aliquam massa. Duis gravida vestibulum nunc, non mollis dui gravida sit amet. Nunc aliquam tincidunt ultrices. Ut sit amet urna ac nulla luctus elementum id eu ante. Quisque consectetur orci quis justo cursus molestie vitae quis ex. Sed ac porta nunc.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="homepage-row">
-                                <div className="home-intro2">
-                                    <div className="home-intro_images">
-                                        <img src="/images/homes/luxhome1.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome2.jpg" alt="home" className="intro-image2" />
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
                                     </div>
-                                    <div className="home-intro_images2">
-                                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
                                     </div>
                                 </div>
-                                <div className="home-intro2">
-                                    <div className="home-intro_images">
-                                        <img src="/images/homes/luxhome1.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome2.jpg" alt="home" className="intro-image2" />
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
                                     </div>
-                                    <div className="home-intro_images2">
-                                        <img src="/images/homes/luxhome5.jpg" alt="home" className="intro-image2" />
-                                        <img src="/images/homes/luxhome4.jpg" alt="home" className="intro-image2" />
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
                                     </div>
                                 </div>
                             </div>
                         </TabPanel>
                         <TabPanel>
-                            <p>two!</p>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container9">
+                                        <div className="bottom-banner">
+                                            <div className="bottom-banner_info">
+                                                <div className="gallery-header">
+                                                    <h1>Living Room</h1>
+                                                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus mauris, mollis id metus at, posuere rutrum enim. Nunc et aliquam massa. Duis gravida vestibulum nunc, non mollis dui gravida sit amet. Nunc aliquam tincidunt ultrices. Ut sit amet urna ac nulla luctus elementum id eu ante. Quisque consectetur orci quis justo cursus molestie vitae quis ex. Sed ac porta nunc.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
                         </TabPanel>
                         <TabPanel>
                             <p>test</p>
@@ -97,3 +194,10 @@ const Gallery = () => {
 }
 
 export default Gallery;
+
+<div className="bottom-banner_info">
+    <div className="gallery-header">
+        <h1>Basement</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus mauris, mollis id metus at, posuere rutrum enim. Nunc et aliquam massa. Duis gravida vestibulum nunc, non mollis dui gravida sit amet. Nunc aliquam tincidunt ultrices. Ut sit amet urna ac nulla luctus elementum id eu ante. Quisque consectetur orci quis justo cursus molestie vitae quis ex. Sed ac porta nunc.</h3>
+    </div>
+</div>
