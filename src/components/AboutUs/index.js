@@ -60,8 +60,7 @@ const AboutUs = () => {
                 <div className="staff-container">
                     <div className="staff-info">
                         <div className="staff-info_inner">
-                            <div className="staff-info_front">
-                            </div>
+                            <div className="staff-info_front1"></div>
                             <div className="staff-info_back">
                                 <h1>Bernice Bare</h1>
                                 <h3>Co-Owner/Designer</h3>
@@ -76,7 +75,7 @@ const AboutUs = () => {
                 <div className="staff-container">
                     <div className="staff-info">
                         <div className="staff-info_inner">
-                            <div className="staff-info_front">
+                            <div className="staff-info_front2">
                             </div>
                             <div className="staff-info_back">
                                 <h1>John Doe</h1>
@@ -89,7 +88,7 @@ const AboutUs = () => {
                 <div className="staff-container">
                     <div className="staff-info">
                         <div className="staff-info_inner">
-                            <div className="staff-info_front">
+                            <div className="staff-info_front3">
                             </div>
                             <div className="staff-info_back">
                                 <h1>John Doe</h1>

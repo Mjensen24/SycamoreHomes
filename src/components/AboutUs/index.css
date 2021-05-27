@@ -220,7 +220,7 @@
     transform: rotateY(180deg);
 }
 
-.staff-info_front, .staff-info_back {
+.staff-info_front1, .staff-info_front2, .staff-info_back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -228,12 +228,33 @@
     backface-visibility: hidden;
   }
 
-.staff-info_front {
+.staff-info_front1 {
     background-color: #bbb;
     color: black;
     background: url("/src/images/bunny.jpg") center;
     background-size: cover;
     border: 4px solid black;
+}
+
+.staff-info_front2 {
+    background-color: #bbb;
+    color: black;
+    background: url("/src/images/generic-profile-picture.jpg") center;
+    background-size: cover;
+    border: 4px solid black;
+}
+
+.staff-info_front3 {
+    background-color: #bbb;
+    color: black;
+    background: url("/src/images/generic-profile-picture.jpg") center;
+    background-size: cover;
+    border: 4px solid black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .staff-info_back {
