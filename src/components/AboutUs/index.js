@@ -81,6 +81,9 @@ const AboutUs = () => {
                                 <h1>John Doe</h1>
                                 <p>Architect & Engineer</p>
                                 <p>We love that guy</p>
+                                <div className="staff_learn-more">
+                                    <NavLink to={"bunny"}>Learn More</NavLink>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -94,6 +97,9 @@ const AboutUs = () => {
                                 <h1>John Doe</h1>
                                 <p>Architect & Engineer</p>
                                 <p>We love that guy</p>
+                                <div className="staff_learn-more">
+                                    <NavLink to={"bunny"}>Learn More</NavLink>
+                                </div>
                             </div>
                         </div>
                     </div>
