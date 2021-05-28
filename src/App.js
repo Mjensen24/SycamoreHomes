@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import AboutUs from './components/AboutUs';
+import AboutBunny from './components/AboutUs/AboutBunny/indes';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
@@ -19,6 +20,9 @@ function App() {
       </Route>
       <Route path="/about-us" exact={true}>
         <AboutUs />
+      </Route>
+      <Route path="/bunny" exact={true}>
+        <AboutBunny />
       </Route>
       <Route path="/gallery" exact={true}>
         <Gallery />
