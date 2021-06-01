@@ -24,6 +24,7 @@ const Gallery = () => {
                         <Tab><h4>Patio</h4></Tab>
                         <Tab><h4>Kitchen</h4></Tab>
                     </TabList>
+                    {/* BASEMENT */}
                     <TabPanels>
                         <TabPanel>
                             <div className="homepage-row_2">
@@ -166,7 +167,74 @@ const Gallery = () => {
                             </div>
                         </TabPanel>
                         <TabPanel>
-                            <p>test</p>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container9">
+                                        <div className="bottom-banner">
+                                            <div className="bottom-banner_info">
+                                                <div className="gallery-header">
+                                                    <h1>Basement</h1>
+                                                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus mauris, mollis id metus at, posuere rutrum enim. Nunc et aliquam massa. Duis gravida vestibulum nunc, non mollis dui gravida sit amet. Nunc aliquam tincidunt ultrices. Ut sit amet urna ac nulla luctus elementum id eu ante. Quisque consectetur orci quis justo cursus molestie vitae quis ex. Sed ac porta nunc.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="homepage-row_2">
+                                <div className="row2_container">
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
+                                    </div>
+                                    <div className="home_container4">
+                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                                    </div>
+                                </div>
+                            </div>
                         </TabPanel>
                         <TabPanel>
                             <p>one!</p>
