@@ -12,7 +12,7 @@ const AboutUs = () => {
                 <div className="about-header_container">
                     <h4>About Us</h4>
                     <h1>With 30 years of construction under our belt, we are dedicated to building quality homes while working within your budget. Your happiness is our success.</h1>
-                    <h2>We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years combined of successful management of residential and commercial construction projects. We have a career history of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization, effective cost engineering, project management and vendor relations. We are completely dedicated to ensuring the highest level of construction quality while maintaining full adherence to all deadlines and specifications. Our reputation for effectively promoting the development of outside consultants and contractors is second to none. Our proven ability to create, develop and motivate highly efficient construction project teams allows us to  deliver exceptional customer service.  </h2>
+                    {/* <h2>We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years combined of successful management of residential and commercial construction projects. We have a career history of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization, effective cost engineering, project management and vendor relations. We are completely dedicated to ensuring the highest level of construction quality while maintaining full adherence to all deadlines and specifications. Our reputation for effectively promoting the development of outside consultants and contractors is second to none. Our proven ability to create, develop and motivate highly efficient construction project teams allows us to  deliver exceptional customer service.  </h2> */}
                 </div>
             </div>
             <div className="about-background"></div>
@@ -42,18 +42,27 @@ const AboutUs = () => {
                 </div>
                 <div className="about-column_2">
                     <div className="column2-info_container">
-                        {/* <div className="column2-info_right">
-                            <h1>We’ve established long-term, successful relationships with many local vendors, as well as McLane Financial.  We are a licensed and approved builder with McLane.</h1>
+                        <h1>
+                            We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years
+                            combined of successful management of residential and commercial construction projects. We have a career history
+                            of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization,
+                            effective cost engineering, project management and vendor relations. We are completely dedicated to ensuring the
+                            highest level of construction quality while maintaining full adherence to all deadlines and specifications. Our
+                            reputation for effectively promoting the development of outside consultants and contractors is second to none.
+                            Our proven ability to create, develop and motivate highly efficient construction project teams allows us to deliver
+                            exceptional customer service.
+                        </h1>
+                        <div className="different">
+                            <h1>What makes us different</h1>
+                            <div className="different-columns">
+                                <div className="different-column">
+
+                                </div>
+                                <div className="different-column">
+
+                                </div>
+                            </div>
                         </div>
-                        <div className="column2-info_left">
-                            <h1>We specialize in building energy efficient homes that includes duct blaster test air sealing with 3rd party installation inspections plus a door blower test with official certification of passing energy efficiency.</h1>
-                        </div>
-                        <div className="column2-info_right">
-                            <h1>We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years combined of successful management of residential and commercial construction projects.</h1>
-                        </div>
-                        <div className="column2-info_left">
-                            <h1>We have a career history of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization, effective cost engineering, project management and vendor relations. </h1>
-                        </div> */}
                     </div>
                 </div>
             </div>
