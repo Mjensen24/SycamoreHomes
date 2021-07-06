@@ -72,7 +72,7 @@ const AboutUs = () => {
                             <div className="staff-info_back">
                                 <h1>Bernice Bare</h1>
                                 <h3>Co-Owner/Designer</h3>
-                                <p>Works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.She is there to provide assistance with every important detail and communicates frequently with weekly reporting. Bernice is also the point person for all permitting and materials handling</p>
+                                <p>As the point of contact for our clients, Bernice, fondly nicknamed Bunny, works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.  She is there to provide assistance with every important detail and communicates frequently with weekly reporting.  Bunny is also the point person for all permitting and materials handling and she can be reached at all times; days, evenings, and weekends.</p>
                                 <div className="staff_learn-more">
                                     <NavLink to={"bunny"}>Learn More</NavLink>
                                 </div>
@@ -86,25 +86,10 @@ const AboutUs = () => {
                             <div className="staff-info_front2">
                             </div>
                             <div className="staff-info_back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
-                                <p>We love that guy</p>
-                                <div className="staff_learn-more">
-                                    <NavLink to={"bunny"}>Learn More</NavLink>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="staff-container">
-                    <div className="staff-info">
-                        <div className="staff-info_inner">
-                            <div className="staff-info_front3">
-                            </div>
-                            <div className="staff-info_back">
-                                <h1>John Doe</h1>
-                                <p>Architect & Engineer</p>
-                                <p>We love that guy</p>
+                                <h1>Larry Bare</h1>
+                                <h3>Director of Construction</h3>
+                                <p>Larry’s proven track record from over 30 years of experience in construction will help to put your mind at ease through your home building process.  Larry is well known for his ability to focus on the project at hand and you can expect the same dedication to your home as he would provide for his own.  Just a few of Larry’s proficiency skills:</p>
+                                <p id="larry-skills">● Construction Management ● Vendor Management ● Customer Service ● Building Codes, Permits ● Planning & Scheduling ● Team Supervision ● Communications ● Compliance ● Workflow Optimization ● Communication ● Problem Solving ● OSHA and Safety ● Cost Engineering ● Quality Control ● Collaboration ● Arbitration  </p>
                                 <div className="staff_learn-more">
                                     <NavLink to={"bunny"}>Learn More</NavLink>
                                 </div>

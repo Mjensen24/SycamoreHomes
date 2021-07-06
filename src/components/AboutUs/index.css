@@ -213,32 +213,15 @@
     }
   }
 
-/* .different-column {
-    display: flex;
-    flex-direction: column;
-    color: #E59F66;
-    width: 49%;
-    height: 100%;
-    align-items: center;
-} */
-
-/* .different-column > h2 {
-    margin: 0;
-    height: 290px;
-    display: flex;
-    align-items: flex-start;
-    font-size: 20px;
-} */
-
 /* ABOUT ROW 3 */
 
 .about-row_3 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 450px;
+    align-items:flex-start;
+    width: 97.5%;
+    height: 900px;
     /* background-color: white; */
 }
 
@@ -247,11 +230,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90%;
-    width: 30%;
+    height: 60%;
+    width: 50%;
     background-color: #E59F66;
-    margin-left: 21px;
-    margin-right: 21px;
+    margin-left: 2%;
+    margin-bottom: 24px;
 }
 
 .staff-info {
@@ -303,7 +286,7 @@
 .staff-info_front2 {
     background-color: #bbb;
     color: black;
-    background: url("/src/images/generic-profile-picture.jpg") center;
+    background: url("/src/images/larry.jpg") center;
     background-size: cover;
     border: 4px solid black;
 }
@@ -349,7 +332,25 @@
     margin: 0;
     color: black;
     width: 90%;
-    font-size: 17px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 880px) {
+    .staff-info_back > p {
+        font-size: 18px;
+    }
+}
+
+#larry-skills {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1045px) {
+    #larry-skills {
+        margin: 0;
+        font-size: 13px;
+    }
 }
 
 .staff_learn-more {
