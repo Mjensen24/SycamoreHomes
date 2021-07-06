@@ -55,12 +55,10 @@ const AboutUs = () => {
                         <div className="different">
                             <h1>What makes us different</h1>
                             <div className="different-columns">
-                                <div className="different-column">
-
-                                </div>
-                                <div className="different-column">
-
-                                </div>
+                                <h2>As small business owners, we are able to cut costs for our homeowners.  For example, most builders will charge clients $150-$300 for each change made to the build plan.  We do not. We want to see our clients achieve their dream home rather than rack up needless change fees.</h2>
+                                <h2>Additionally, for every client, we provide upgraded electrical services 400 amp free of charge ($5,000 value) and we also provide one 3-piece rough-ins for in the basement, also free of charge ($1,700 value).  </h2>
+                                <h2>We are committed to ensuring every client has a pleasurable and more personal experience with Sycamore.  This is a very big life event and investment for you; therefore, we want to be sure it is a seamless process.  We make ourselves available at virtually all times (days, evenings and weekends) and will happily work around our client’s schedules. </h2>
+                                <h2>Lastly, Sycamore has a solid, long-standing relationship with McLean Mortgage, one of the top rated mortgage lenders on the east coast.  Bunny can connect you with their Senior Loan Officer to get the process rolling and get you pre-approved for purchase.</h2>
                             </div>
                         </div>
                     </div>
