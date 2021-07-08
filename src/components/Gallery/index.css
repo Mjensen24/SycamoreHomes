@@ -148,3 +148,31 @@
     width: 90%;
     font-size: 1rem;
 }
+
+/* IMAGE CSS */
+
+.home_container-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 98%;
+}
+
+.home_container-test > img {
+    width: 98%;
+    height: 98%;
+    object-fit:cover;
+}
+
+
+
+/* .home_container-test > img:hover {
+    position: fixed;
+    justify-content: center;
+    z-index: 1000;
+    top: 500px;
+    width: 250%;
+    height: 250%;
+    transition: 0.8s;
+} */

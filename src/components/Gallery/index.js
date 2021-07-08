@@ -4,8 +4,18 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 
 const Gallery = () => {
 
-    // const basementArray = ["/images/homes/luxhome6.jpg"];
-    // console.log(basementArray)
+    const enlargeImage = (image) => {
+
+    }
+
+    const plansArray1 = ["/images/plans/plan(1).jpg", "/images/plans/plan(2).jpg", "/images/plans/plan(3).jpg", "/images/plans/plan(4).jpg"]
+    const plansArray2 = ["/images/plans/plan(5).jpg", "/images/plans/plan(6).jpg", "/images/plans/plan(7).jpg", "/images/plans/plan(8).jpg"]
+    const plansArray3 = ["/images/plans/plan(9).jpg", "/images/plans/plan(10).jpg", "/images/plans/plan(11).jpg", "/images/plans/plan(12).jpg"]
+    const plansArray4 = ["/images/plans/plan(13).jpg", "/images/plans/plan(14).jpg", "/images/plans/plan(15).jpg", "/images/plans/plan(16).jpg"]
+    const plansArray5 = ["/images/plans/plan(17).jpg", "/images/plans/plan(18).jpg", "/images/plans/plan(19).jpg", "/images/plans/plan(20).jpg"]
+    const plansArray6 = ["/images/plans/plan(21).jpg", "/images/plans/plan(22).jpg", "/images/plans/plan(23).jpg", "/images/plans/plan(24).jpg",]
+    const plansArray7 = ["/images/plans/plan(25).jpg", "/images/plans/plan(26).jpg", "/images/plans/plan(27).jpg", "/images/plans/plan(28).jpg"]
+    const plansArray8 = ["/images/plans/plan(29).jpg", "/images/plans/plan(30).jpg",];
 
     return (
         <div className="gallery-container">
@@ -29,7 +39,7 @@ const Gallery = () => {
                         <Tab><h4>Lighting</h4></Tab>
                         <Tab><h4>Flooring</h4></Tab>
                     </TabList>
-                    {/* BASEMENT */}
+                    {/* Master Bedroom */}
                     <TabPanels>
                         <TabPanel>
                             <div className="homepage-row_2">
@@ -101,6 +111,7 @@ const Gallery = () => {
                                 </div>
                             </div>
                         </TabPanel>
+                        {/* MASTER BATHROOM */}
                         <TabPanel>
                             <div className="homepage-row_2">
                                 <div className="row2_container">
@@ -171,6 +182,7 @@ const Gallery = () => {
                                 </div>
                             </div>
                         </TabPanel>
+                        {/* HOUSE PLANS */}
                         <TabPanel>
                             <div className="homepage-row_2">
                                 <div className="row2_container">
@@ -194,50 +206,35 @@ const Gallery = () => {
                             </div>
                             <div className="homepage-row_2">
                                 <div className="row2_container">
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
+                                    {plansArray1.map((plan) => {
+                                        return (
+                                            <div key={plan} className="home_container-test">
+                                                <img src={plan} alt="home" />
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                             </div>
                             <div className="homepage-row_2">
                                 <div className="row2_container">
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
+                                    {plansArray2.map((plan) => {
+                                        return (
+                                            <div key={plan} className="home_container-test">
+                                                <img src={plan} alt="home" />
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                             </div>
                             <div className="homepage-row_2">
                                 <div className="row2_container">
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome6.jpg" alt="home" />
-                                    </div>
-                                    <div className="home_container4">
-                                        <img src="/images/homes/luxhome7.jpg" alt="home" />
-                                    </div>
+                                    {plansArray3.map((plan) => {
+                                        return (
+                                            <div key={plan} className="home_container-test">
+                                                <img src={plan} alt="home" />
+                                            </div>
+                                        )
+                                    })}
                                 </div>
                             </div>
                         </TabPanel>
