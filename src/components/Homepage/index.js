@@ -24,8 +24,8 @@ const Homepage = () => {
                 <div className="home-intro">
                     <div className="content_container">
                         <div className="home-intro_info">
-                            <h1>Sycamore Custom Luxery Homes</h1>
-                            <h4>Sycamore Custom Luxery Homes builds and Designs custom homes and Luxury Estates. Our highly experienced team has the know-how to achieve your vision.</h4>
+                            <h1>Sycamore Custom Luxury Homes</h1>
+                            <h4>Sycamore Custom Luxury Homes builds and Designs custom homes and Luxury Estates. Our highly experienced team has the know-how to achieve your vision.</h4>
                             <div className="banner-button">
                                 <h4>LEARN MORE</h4>
                             </div>

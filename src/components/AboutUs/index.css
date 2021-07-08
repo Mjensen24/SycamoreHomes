@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100.7%;
-    height: 3000px;
+    height: 2400px;
 }
 
 /* HEADER ROW */
@@ -221,7 +221,7 @@
     justify-content: space-between;
     align-items:flex-start;
     width: 97.5%;
-    height: 900px;
+    height: 550px;
     /* background-color: white; */
 }
 
@@ -230,7 +230,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 60%;
+    height: 100%;
     width: 50%;
     background-color: #E59F66;
     margin-left: 2%;
@@ -343,13 +343,20 @@
 
 #larry-skills {
     margin-top: 5px;
-    font-size: 16px;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 1102px) {
+    #larry-skills {
+        margin: 5px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1045px) {
     #larry-skills {
         margin: 0;
-        font-size: 13px;
+        font-size: 13.5px;
     }
 }
 

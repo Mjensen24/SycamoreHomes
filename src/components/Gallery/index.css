@@ -90,8 +90,13 @@
     font-family: 'Karla', sans-serif;
     font-weight: 600;
     margin: 0;
+    transition: 0.2s;
 }
 
+.chakra-tabs__tab > h4:hover {
+    color: white;
+    transition: 0.2s;
+}
 
 
 /* TAB CONTENT */
