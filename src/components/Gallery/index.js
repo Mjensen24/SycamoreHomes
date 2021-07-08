@@ -3,26 +3,31 @@ import "./index.css"
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react"
 
 const Gallery = () => {
+
+    // const basementArray = ["/images/homes/luxhome6.jpg"];
+    // console.log(basementArray)
+
     return (
         <div className="gallery-container">
             <div className="gallery-row">
                 <div className="gallery-header_container">
                     <h4>Gallery</h4>
-                    <h1>We provide weekly updates and photos for all our homes during the construction process. A representative will be available 7 days a week to answer any questions or concerns that you may have.</h1>
+                    <h1>We hold ourselves to a very high standard that we pass along to our clients by offering upgraded options as standard items.  Additionally at standard pricing, we only build energy-efficient homes certified by Energy Star Homes</h1>
                 </div>
             </div>
             <div className="gallery-tab_container">
                 <Tabs variant="soft-rounded" colorScheme="green">
                     <TabList>
-                        <Tab><h4>Basement</h4></Tab>
-                        <Tab><h4>Living Room</h4></Tab>
-                        <Tab><h4>Master Bedroom</h4></Tab>
-                        <Tab><h4>Master Bathroom</h4></Tab>
-                        <Tab><h4>Patio</h4></Tab>
-                        <Tab><h4>Kitchen</h4></Tab>
-                        <Tab><h4>Master Bathroom</h4></Tab>
-                        <Tab><h4>Patio</h4></Tab>
-                        <Tab><h4>Kitchen</h4></Tab>
+                        <Tab><h4>Master Bedrooms</h4></Tab>
+                        <Tab><h4>Master Bathrooms</h4></Tab>
+                        <Tab><h4>House Plans</h4></Tab>
+                        <Tab><h4>Bedrooms</h4></Tab>
+                        <Tab><h4>Bathrooms</h4></Tab>
+                        <Tab><h4>Kitchens</h4></Tab>
+                        <Tab><h4>Backyards</h4></Tab>
+                        <Tab><h4>Fire Places</h4></Tab>
+                        <Tab><h4>Lighting</h4></Tab>
+                        <Tab><h4>Flooring</h4></Tab>
                     </TabList>
                     {/* BASEMENT */}
                     <TabPanels>

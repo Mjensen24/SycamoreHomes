@@ -21,7 +21,7 @@
     flex-direction: column;
     justify-content: center;
     margin-left: 110px;
-    width: 70%;
+    width: 850%;
     height: 100%;
     color: white;
 }
@@ -38,6 +38,7 @@
     font-size: 38px;
     padding-top: 15px;
     font-family: 'Karla', sans-serif;
+    width: 100%;
 }
 /* USING 3RD PARTY REACT COMPONENTS VIA CHAKRA UI STARTING BELLOW */
 
@@ -67,7 +68,7 @@
     flex-direction: column;
     height: 100%;
     background-color: black;
-    width: 200px;
+    width: 215px;
 }
 
 .chakra-tabs__tab {
