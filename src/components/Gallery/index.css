@@ -105,7 +105,7 @@
 .chakra-tabs__tab-panels {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     transition: 1s;
     /* background-color: blueviolet; */
@@ -151,6 +151,14 @@
 
 /* IMAGE CSS */
 
+.row2_gallery {
+    height: 98%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .home_container-test {
     display: flex;
     justify-content: center;
@@ -163,16 +171,16 @@
     width: 98%;
     height: 98%;
     object-fit:cover;
+    transition: 0.8s;
 }
 
-
-
-/* .home_container-test > img:hover {
-    position: fixed;
-    justify-content: center;
+.home_container-test > img:hover {
+    /* position: fixed; */
+    /* justify-content: center; */
     z-index: 1000;
-    top: 500px;
-    width: 250%;
-    height: 250%;
+    /* top: 150%; */
+    width: 200%;
+    height: 200%;
     transition: 0.8s;
-} */
+    /* background-color: rgba(0, 0, 0, .8); */
+}
