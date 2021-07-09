@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./index.css"
 import { GoLocation } from 'react-icons/go';
 import { HiPhone, HiOutlineMail } from 'react-icons/hi';
 import ContactForm from '../ContactForm';
 
 const Contact = () => {
+
+    const [isCool, setIsCool] = useState(true);
+
     return (
         <div className="contact-container">
             <div className="contact-column_top">
@@ -20,12 +23,9 @@ const Contact = () => {
                     <h1>GET IN TOUCH</h1>
                     <h2>We are looking forward to starting a project with you!</h2>
                 </div>
-                {/* <div className="contact-bunny_container">
-                    <div className="contact-bunny">
-                        <div className="bunny-icon"></div>
+                <div onClick={() => setIsCool(!isCool)} className={isCool ? "cool-test" : "boo-test"}>
 
-                    </div>
-                </div> */}
+                </div>
             </div>
             <div className="contact-info_container">
                 <div className="contact-info_column">
