@@ -194,10 +194,3 @@ const Gallery = () => {
 }
 
 export default Gallery;
-
-<div className="bottom-banner_info">
-    <div className="gallery-header">
-        <h1>Basement</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam purus mauris, mollis id metus at, posuere rutrum enim. Nunc et aliquam massa. Duis gravida vestibulum nunc, non mollis dui gravida sit amet. Nunc aliquam tincidunt ultrices. Ut sit amet urna ac nulla luctus elementum id eu ante. Quisque consectetur orci quis justo cursus molestie vitae quis ex. Sed ac porta nunc.</h3>
-    </div>
-</div>
