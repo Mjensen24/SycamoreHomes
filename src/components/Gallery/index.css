@@ -268,7 +268,11 @@
     align-items: center;
     height: 99%;
     width: 99%;
-    background-color: #E59F66;
+    /* background-color: #E59F66; */
+    overflow: hidden;
+    background: url("/src/images/luxhome10.jpg");
+    background-size:cover;
+    /* background-attachment: fixed; */
 }
 
 .inner-tab_header {
@@ -278,4 +282,10 @@
     height: 90%;
     width: 90%;
     border: 3px solid black;
+    background-color: rgba(229, 159, 102, 0.92);
+}
+
+.inner-tab_header > h1 {
+    margin: 0;
+    text-align: center;
 }
