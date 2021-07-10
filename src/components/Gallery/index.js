@@ -6,15 +6,6 @@ import SoloImage from './SoloImage'
 const Gallery = () => {
 
     const plansArray0 = ["/images/plans/plan(1).jpg", "/images/plans/plan(2).jpg", "/images/plans/plan(3).jpg", "/images/plans/plan(4).jpg", "/images/plans/plan(5).jpg", "/images/plans/plan(6).jpg", "/images/plans/plan(7).jpg", "/images/plans/plan(8).jpg", "/images/plans/plan(9).jpg", "/images/plans/plan(10).jpg", "/images/plans/plan(11).jpg", "/images/plans/plan(12).jpg", "/images/plans/plan(13).jpg", "/images/plans/plan(14).jpg", "/images/plans/plan(15).jpg", "/images/plans/plan(16).jpg", "/images/plans/plan(17).jpg", "/images/plans/plan(18).jpg", "/images/plans/plan(19).jpg", "/images/plans/plan(20).jpg", "/images/plans/plan(21).jpg", "/images/plans/plan(22).jpg", "/images/plans/plan(23).jpg", "/images/plans/plan(24).jpg", "/images/plans/plan(25).jpg", "/images/plans/plan(26).jpg", "/images/plans/plan(27).jpg", "/images/plans/plan(28).jpg", "/images/plans/plan(29).jpg", "/images/plans/plan(30).jpg"]
-    const plansArray1 = ["/images/plans/plan(1).jpg", "/images/plans/plan(2).jpg", "/images/plans/plan(3).jpg", "/images/plans/plan(4).jpg"]
-    const plansArray2 = ["/images/plans/plan(5).jpg", "/images/plans/plan(6).jpg", "/images/plans/plan(7).jpg", "/images/plans/plan(8).jpg"]
-    const plansArray3 = ["/images/plans/plan(9).jpg", "/images/plans/plan(10).jpg", "/images/plans/plan(11).jpg", "/images/plans/plan(12).jpg"]
-    const plansArray4 = ["/images/plans/plan(13).jpg", "/images/plans/plan(14).jpg", "/images/plans/plan(15).jpg", "/images/plans/plan(16).jpg"]
-    const plansArray5 = ["/images/plans/plan(17).jpg", "/images/plans/plan(18).jpg", "/images/plans/plan(19).jpg", "/images/plans/plan(20).jpg"]
-    const plansArray6 = ["/images/plans/plan(21).jpg", "/images/plans/plan(22).jpg", "/images/plans/plan(23).jpg", "/images/plans/plan(24).jpg",]
-    const plansArray7 = ["/images/plans/plan(25).jpg", "/images/plans/plan(26).jpg", "/images/plans/plan(27).jpg", "/images/plans/plan(28).jpg"]
-    const plansArray8 = ["/images/plans/plan(29).jpg", "/images/plans/plan(30).jpg",];
-
     const backyardArray = ["/images/backyard/backyard(1).jpg", "/images/backyard/backyard(2).jpg", "/images/backyard/backyard(3).jpg", "/images/backyard/backyard(4).jpg", "/images/backyard/backyard(5).jpg", "/images/backyard/backyard(6).jpg", "/images/backyard/backyard(7).jpg"];
 
 
@@ -125,6 +116,11 @@ const Gallery = () => {
                         {/* HOUSE PLANS */}
                         <TabPanel>
                             <div className="grid-container">
+                                <div className="gallery-tab_header">
+                                    <div className="inner-tab_header">
+                                        <h1>House Plans</h1>
+                                    </div>
+                                </div>
                                 {plansArray0.map((plan) => {
                                     return (
                                         <SoloImage key={plan} plan={plan} />
@@ -345,6 +341,11 @@ const Gallery = () => {
                         {/* BACKYARD */}
                         <TabPanel>
                             <div className="grid-container">
+                                <div className="gallery-tab_header">
+                                    <div className="inner-tab_header">
+                                        <h1>Backyards</h1>
+                                    </div>
+                                </div>
                                 {backyardArray.map((plan) => {
                                     return (
                                         <SoloImage key={plan} plan={plan} />
