@@ -3,7 +3,7 @@ import "./index.css"
 import { IoRocketSharp } from 'react-icons/io5';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaTrophy } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 
 const AboutUs = () => {
     return (
@@ -18,25 +18,46 @@ const AboutUs = () => {
             <div className="about-background"></div>
             <div className="about-row_2">
                 <div className="about-column_1">
-                    <div className="column1-info_container">
-                        <div className="column1-info">
-                            <IoRocketSharp />
-                            <h2>Innovators</h2>
-                            <h4>You'll find that We're always in the pursuit of exceeding your expectations. We're always thinking outside the box.</h4>
+                    <div className="staff-container">
+                        <div className="staff-info">
+                            <div className="staff-info_inner">
+                                <div className="staff-info_front1">
+                                    <IoRocketSharp />
+                                    <h2>Innovators</h2>
+                                    <h4>You'll find that We're always in the pursuit of exceeding your expectations. We're always thinking outside the box.</h4>
+                                </div>
+                                <div className="staff-info_back">
+                                    <h4>We’ve established long-term, successful relationships with many local vendors, as well as McLane Financial.  We are a licensed and approved builder with McLane.</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="column1-info_container">
-                        <div className="column1-info">
-                            <BsFillPersonLinesFill />
-                            <h2>Expert Team</h2>
-                            <h4>Your project will be handled by our trusted experts. We have hand selected the most experienced professionals to work for you.</h4>
+                    <div className="staff-container">
+                        <div className="staff-info">
+                            <div className="staff-info_inner">
+                                <div className="staff-info_front1">
+                                    <BsFillPersonLinesFill />
+                                    <h2>Expert Team</h2>
+                                    <h4>Your project will be handled by our trusted experts. We have hand selected the most experienced professionals to work for you.</h4>
+                                </div>
+                                <div className="staff-info_back">
+                                    <h4>A copy of our business license and insurance is provided.  We work solely with licensed and insured vendors and we stand behind our work with a 1, 2, 10 year home warranty (1 year cosmetic, 2 years everything behind the walls, 10 years structural).</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="column1-info_container">
-                        <div className="column1-info">
-                            <FaTrophy />
-                            <h2>Over 20 Years of Experience</h2>
-                            <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4>
+                    <div className="staff-container">
+                        <div className="staff-info">
+                            <div className="staff-info_inner">
+                                <div className="staff-info_front1">
+                                    <FaTrophy />
+                                    <h2>Over 20 Years of Experience</h2>
+                                    <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4>
+                                </div>
+                                <div className="staff-info_back">
+                                    <h4>We specialize in building energy efficient homes that includes duct blaster test air sealing with 3rd party installation inspections plus a door blower test with official certification of passing energy efficiency.</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -65,36 +86,25 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className="about-row_3">
-                <div className="staff-container">
-                    <div className="staff-info">
-                        <div className="staff-info_inner">
-                            <div className="staff-info_front1"></div>
-                            <div className="staff-info_back">
-                                <h1>Bernice Bare</h1>
-                                <h3>Co-Owner/Designer</h3>
-                                <p>As the point of contact for our clients, Bernice, fondly nicknamed Bunny, works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.  She is there to provide assistance with every important detail and communicates frequently with weekly reporting.  Bunny is also the point person for all permitting and materials handling and she can be reached at all times; days, evenings, and weekends.</p>
-                                <div className="staff_learn-more">
-                                    <NavLink to={"bunny"}>Learn More</NavLink>
-                                </div>
-                            </div>
+                <div className="team-container">
+                    <div className="team-icon"></div>
+                    <div className="team-info">
+                        <div className="team-info_header">
+                            <h1>Bernice Bare</h1>
+                            <h3>Owner</h3>
                         </div>
+                        <p>As the point of contact for our clients, Bernice, fondly nicknamed Bunny, works closely with you every step of the way to help design the floorplan…from flooring to cabinets to fixtures.  She is there to provide assistance with every important detail and communicates frequently with weekly reporting.  Bunny is also the point person for all permitting and materials handling and she can be reached at all times; days, evenings, and weekends.</p>
                     </div>
                 </div>
-                <div className="staff-container">
-                    <div className="staff-info">
-                        <div className="staff-info_inner">
-                            <div className="staff-info_front2">
-                            </div>
-                            <div className="staff-info_back">
-                                <h1>Larry Bare</h1>
-                                <h3>Director of Construction</h3>
-                                <p>Larry’s proven track record from over 30 years of experience in construction will help to put your mind at ease through your home building process.  Larry is well known for his ability to focus on the project at hand and you can expect the same dedication to your home as he would provide for his own.  Just a few of Larry’s proficiency skills:</p>
-                                <p id="larry-skills">● Construction Management ● Vendor Management ● Customer Service ● Building Codes, Permits ● Planning & Scheduling ● Team Supervision ● Communications ● Compliance ● Workflow Optimization ● Communication ● Problem Solving ● OSHA and Safety ● Cost Engineering ● Quality Control ● Collaboration ● Arbitration  </p>
-                                <div className="staff_learn-more">
-                                    <NavLink to={"bunny"}>Learn More</NavLink>
-                                </div>
-                            </div>
+                <div className="team-container">
+                    <div className="team-icon2"></div>
+                    <div className="team-info">
+                        <div className="team-info_header">
+                            <h1>Larry Bare</h1>
+                            <h3>Director of Construction</h3>
                         </div>
+                        <p>Larry’s proven track record from over 30 years of experience in construction will help to put your mind at ease through your home building process.  Larry is well known for his ability to focus on the project at hand and you can expect the same dedication to your home as he would provide for his own.  Just a few of Larry’s proficiency skills:</p>
+                        <p id="larry-skills">● Construction Management ● Vendor Management ● Customer Service ● Building Codes, Permits ● Planning & Scheduling ● Team Supervision ● Communications ● Compliance ● Workflow Optimization ● Communication ● Problem Solving ● OSHA and Safety ● Cost Engineering ● Quality Control ● Collaboration ● Arbitration  </p>
                     </div>
                 </div>
             </div>
@@ -103,3 +113,5 @@ const AboutUs = () => {
 }
 
 export default AboutUs;
+
+<p>● Construction Management ● Vendor Management ● Customer Service ● Building Codes, Permits ● Planning & Scheduling ● Team Supervision ● Communications ● Compliance ● Workflow Optimization ● Communication ● Problem Solving ● OSHA and Safety ● Cost Engineering ● Quality Control ● Collaboration ● Arbitration  </p>

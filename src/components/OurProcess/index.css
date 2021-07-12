@@ -1,0 +1,129 @@
+.process-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100.3%;
+    height: fit-content;
+}
+
+.process-background {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 550px;
+    width: 100.7%;
+    /* background-color: white; */
+    background: url("/src/images/homebanner.jpg") bottom;
+    background-size: cover;
+}
+
+.process-banner_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    margin-left: 130px;
+    /* margin-bottom: 50px; */
+    background: rgba(225, 225, 225, 0.6);
+}
+
+.process-banner_info > h1 {
+    margin: 0;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 700;
+    color: black
+}
+
+.process-banner_info > h2 {
+    margin: 0;
+    width: 100%;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+}
+
+/* OPENER */
+.process-opener {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100.7%;
+    height: 250px;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.process-opener > h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    width: 85%;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.process-opener h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+    width: 65%;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+/* STEP 1 */
+.step-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100.7%;
+    height: 250px;
+    background-color: white;
+}
+
+.step-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 42%;
+    height: 90%;
+    margin-left: 150px;
+}
+
+.step-container > .step-num {
+    margin: 0;
+    color: gray;
+    border-bottom: 2.5px solid gray;
+}
+
+.step-container > h2 {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 28px;
+}
+
+.step-container > p {
+    margin: 0;
+    margin-bottom: 8px;
+
+}
+
+.step-container > h4 {
+    margin: 0;
+}
+
+.step-container > ul {
+    margin: 0;
+
+}
+
+.step-container li {
+    margin: 0;
+
+}

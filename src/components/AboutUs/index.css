@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     width: 100.7%;
-    height: 2400px;
+    height: fit-content;
 }
 
 /* HEADER ROW */
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 280px;
+    height: 220px;
     width: 100%;
     /* background-color: white; */
 }
@@ -72,6 +72,129 @@
 }
 
 /* ABOUT COLUMN 1 */
+
+
+.about-row_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 97.5%;
+    height: 650px;
+    background-color: white;
+}
+
+.staff-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 80%;
+    background-color: #E59F66;
+    margin-left: 2%;
+    /* margin-bottom: 24px; */
+}
+
+.staff-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 90%;
+    height: 90%;
+    perspective: 1000px;
+    background-color: black;
+}
+
+.staff-info_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+}
+
+.staff-info:hover .staff-info_inner {
+    transform: rotateY(180deg);
+}
+
+.staff-info_front1, .staff-info_front2, .staff-info_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+.staff-info_front1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbb;
+    color: black;
+    /* background: url("/src/images/bunny.jpg") center; */
+    background-color: #E59F66;
+    /* background-size: cover; */
+    border: 4px solid black;
+}
+
+.staff-info_front1 > svg {
+    margin: 0;
+    height: 45px;
+    width: 45px;
+}
+
+.staff-info_front1 > h2 {
+    margin: 0;
+    font-size: 27px;
+}
+
+.staff-info_front1 > h4 {
+    margin: 0;
+    width: 80%;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.staff-info_back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E59F66;
+    transform: rotateY(180deg);
+    border: 4px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.staff-info_back > h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 880px) {
+    .staff-info_back > p {
+        font-size: 18px;
+    }
+}
 
 .about-column_1 {
     display: flex;
@@ -217,169 +340,106 @@
 
 .about-row_3 {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:space-evenly;
     align-items:flex-start;
-    width: 97.5%;
-    height: 550px;
-    /* background-color: white; */
-}
-
-.staff-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 50%;
-    background-color: #E59F66;
-    margin-left: 2%;
-    margin-bottom: 24px;
-}
-
-.staff-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
     width: 90%;
-    height: 90%;
-    perspective: 1000px;
+    height: 500px;
     background-color: black;
 }
 
-.staff-info_inner {
+.team-container {
+    margin-left: 25px;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #E59F66; */
+}
+
+
+.team-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
+    width: 70%;
     height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-}
-
-.staff-info:hover .staff-info_inner {
-    transform: rotateY(180deg);
-}
-
-.staff-info_front1, .staff-info_front2, .staff-info_back {
-    position: absolute;
-    width: 100%;
+    color: white;
     height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-
-.staff-info_front1 {
-    background-color: #bbb;
-    color: black;
-    background: url("/src/images/bunny.jpg") center;
-    background-size: cover;
-    border: 4px solid black;
 }
 
-.staff-info_front2 {
-    background-color: #bbb;
-    color: black;
-    background: url("/src/images/larry.jpg") center;
-    background-size: cover;
-    border: 4px solid black;
-}
-
-.staff-info_front3 {
-    background-color: #bbb;
-    color: black;
-    background: url("/src/images/generic-profile-picture.jpg") center;
-    background-size: cover;
-    border: 4px solid black;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.staff-info_back {
+.team-info_header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
-    background-color: #E59F66;
-    transform: rotateY(180deg);
-    border: 5px solid black;
-    height: 100%;
-    width: 100%;
+    align-items: baseline;
 }
 
-.staff-info_back > h1 {
+.team-info_header > h1 {
     margin: 0;
-    color: black;
-    margin-top: 15px;
+    color: #E59F66;
+    margin-right: 10px;
 }
 
-.staff-info_back > h3 {
+.team-info_header > h3 {
     margin: 0;
-    color: black;
-    margin-bottom: 10px;
-}
-
-.staff-info_back > p {
-    margin: 0;
-    color: black;
-    width: 90%;
+    color: #E59F66;
     font-size: 20px;
 }
 
-@media screen and (max-width: 880px) {
-    .staff-info_back > p {
-        font-size: 18px;
-    }
+.team-info > p {
+    margin: 0;
+    font-size: 20px;
 }
 
 #larry-skills {
+    font-size: 18px;
+    /* margin-left: 35px; */
     margin-top: 5px;
-    font-size: 17px;
 }
 
-@media screen and (max-width: 1102px) {
-    #larry-skills {
-        margin: 5px;
-        font-size: 15px;
-    }
+.team-icon {
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+    background: url("/src/images/bunny.jpg");
+    background-size:cover;
+    border-radius: 150px;
+    border: 3px solid #E59F66;
+    margin-right: 30px;
 }
 
-@media screen and (max-width: 1045px) {
-    #larry-skills {
-        margin: 0;
-        font-size: 13.5px;
-    }
+.team-icon2 {
+    height: 225px;
+    width: 225px;
+    overflow: hidden;
+    background: url("/src/images/larry.jpg") ;
+    background-size:cover;
+    border-radius: 150px;
+    border: 3px solid #E59F66;
+    margin-right: 30px;
 }
 
-.staff_learn-more {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    bottom: 20px;
-    height: 30px;
-    width: 100px;
-    border: 3px solid black;
-    /* cursor: pointer; */
+.team-info > h1 {
+    color: white;
+    margin: 0;
+    text-align: center;
+
 }
 
-.staff_learn-more > a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+.team-info > h3 {
+    color: white;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.team-container > p {
+    color: white;
+    margin: 0;
+    text-align: left;
+    font-size: 26px;
+    width: 50%;
 }
