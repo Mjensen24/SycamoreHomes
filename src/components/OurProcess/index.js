@@ -7,7 +7,7 @@ import { AiFillHome } from 'react-icons/ai';
 const OurProcess = () => {
     return (
         <div className="process-container">
-            <div className="circle-top">
+            {/* <div className="circle-top">
                 <AiFillHome />
             </div>
             <div className="process-background">
@@ -38,7 +38,7 @@ const OurProcess = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className="step-container">
+            <div className="step-container">
                 <div className="step-info_container">
                     <div className="step-info">
                         <h4 className="step-num">STEP 2</h4>
