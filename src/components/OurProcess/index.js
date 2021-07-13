@@ -6,6 +6,9 @@ import { RiArrowRightSLine } from 'react-icons/ri';
 const OurProcess = () => {
     return (
         <div className="process-container">
+            {/* <div className="step-line_container">
+
+            </div> */}
             <div className="process-background">
                 <div className="process-banner_info">
                     <h1>THE PATH TO HOME OWNERSHIP</h1>
@@ -65,6 +68,7 @@ const OurProcess = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="circle-test"></div>
             </div>
             <div className="step-container">
                 <div className="step-info_container">
@@ -102,6 +106,8 @@ const OurProcess = () => {
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
                     </div>
+                    <div className="step-line"></div>
+                    <div className="circle-test"></div>
                 </div>
             </div>
             <div className="step-container">
@@ -151,6 +157,8 @@ const OurProcess = () => {
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
                     </div>
+                    <div className="circle-test"></div>
+
                 </div>
             </div>
             <div className="step-container">
