@@ -5,3 +5,9 @@
     align-items: center;
     height: 550px;
 }
+
+.license-info_container {
+    height: 80%;
+    width: 80%;
+    background-color: #E59F66;
+}
