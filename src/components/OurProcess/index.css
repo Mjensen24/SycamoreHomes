@@ -105,8 +105,8 @@
 
 .step1-container > .step-num {
     margin: 0;
-    color: gray;
-    border-bottom: 2.5px solid gray;
+    color: #E59F66;
+    border-bottom: 2.5px solid #E59F66;
     font-size: 19px;
 }
 
@@ -183,7 +183,7 @@
     justify-content: center;
     align-items: center;
     height: fit-content;
-    width: 100.7%;
+    width: 100.8%;
     background-color: white;
 }
 
@@ -226,22 +226,24 @@
 }
 
 .step-image-right > img {
-    height: 400px;
+    height: 300px;
     width: 90%;
     object-fit: cover;
-    /* border: 3px solid #E59F66; */
+    border: 3px solid black;
 }
 
 .step-image-left > img {
-    height: 400px;
+    height: 300px;
     width: 90%;
     object-fit: cover;
+    border: 3px solid black;
+
 }
 
 .step-info > .step-num {
     margin: 0;
-    color: gray;
-    border-bottom: 2.5px solid gray;
+    color: #E59F66;
+    border-bottom: 2.5px solid #E59F66;
 }
 
 .step-info > h2 {
@@ -284,9 +286,9 @@
 }
 
 .step-line {
-    height: 3500px;
+    height: 2841px;
     width: 12px;
-    background-color: gray;
+    background-color: black;
     left: 50%;
 }
 
@@ -298,8 +300,11 @@
     height: 55px;
     width: 55px;
     border-radius: 50px;
-    background-color: gray;
+    background-color: black;
     left: 50%;
-    z-index: 1000;
+}
 
+.circle > h1 {
+    z-index: 1000;
+    color: #E59F66;
 }
