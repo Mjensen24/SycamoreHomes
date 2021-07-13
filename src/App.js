@@ -28,7 +28,7 @@ function App() {
         <Gallery />
       </Route>
       <Route path="/process" exact={true}>
-        <OurProcess />
+        {/* <OurProcess /> */}
       </Route>
       <Route path="/license" exact={true}>
         <License />
