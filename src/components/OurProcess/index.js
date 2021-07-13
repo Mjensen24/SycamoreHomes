@@ -8,7 +8,7 @@ const OurProcess = () => {
     return (
         <div className="process-container">
             <div className="circle-top">
-                {/* <AiFillHome /> */}
+                <AiFillHome />
             </div>
             <div className="process-background">
                 <div className="process-banner_info">
@@ -34,11 +34,11 @@ const OurProcess = () => {
                         <NavLink to={"contact"}>
                             Contact Us
                         </NavLink>
-                        {/* <RiArrowRightSLine /> */}
+                        <RiArrowRightSLine />
                     </div>
                 </div>
             </div>
-            <div className="step-container">
+            {/* <div className="step-container">
                 <div className="step-info_container">
                     <div className="step-info">
                         <h4 className="step-num">STEP 2</h4>
@@ -90,7 +90,7 @@ const OurProcess = () => {
                             <NavLink to={"gallery"}>
                                 Our Gallery
                             </NavLink>
-                            {/* <RiArrowRightSLine /> */}
+                            <RiArrowRightSLine />
                         </div>
                     </div>
                     <div className="step-image-right">
@@ -137,7 +137,7 @@ const OurProcess = () => {
                             <NavLink to={"gallery"}>
                                 Our Gallery
                             </NavLink>
-                            {/* <RiArrowRightSLine /> */}
+                            <RiArrowRightSLine />
                         </div>
                     </div>
                     <div className="step-image-right">
@@ -198,7 +198,7 @@ const OurProcess = () => {
                         <h1>08</h1>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
