@@ -4,6 +4,7 @@
     align-items: center;
     width: 100.3%;
     height: fit-content;
+    overflow: hidden;
 }
 
 /* STEP LINE */
