@@ -76,6 +76,12 @@ const OurProcess = () => {
                         <ul>
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
+                        <div className="step-button">
+                            <NavLink to={"gallery"}>
+                                Our Gallery
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div>
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
@@ -108,6 +114,12 @@ const OurProcess = () => {
                         <ul>
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
+                        <div className="step-button">
+                            <NavLink to={"gallery"}>
+                                Our Gallery
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div>
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
