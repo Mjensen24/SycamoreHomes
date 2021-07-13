@@ -6,10 +6,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import Homepage from './components/Homepage';
-import License from './components/License';
 import NavBar from './components/NavBar';
 import OurProcess from './components/OurProcess';
-import References from './components/References';
 
 function App() {
   return (
@@ -29,12 +27,6 @@ function App() {
       </Route>
       <Route path="/process" exact={true}>
         <OurProcess />
-      </Route>
-      <Route path="/license" exact={true}>
-        <License />
-      </Route>
-      <Route path="/references" exact={true}>
-        <References />
       </Route>
       <Route path="/contact" exact={true}>
         <Contact />
