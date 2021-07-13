@@ -3,7 +3,9 @@ import "./index.css"
 
 const License = () => {
     return (
-        <h1>License</h1>
+        <div className="license-container">
+
+        </div>
     )
 }
 
