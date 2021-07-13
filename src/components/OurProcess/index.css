@@ -148,7 +148,7 @@
     border: 2px solid #E59F66;
     border-radius: 5px;
     margin-top: 10px;
-    transition: 0.2s;
+    transition: 0.15s;
 }
 
 .step-button > a {
@@ -161,7 +161,7 @@
 
 .step-button > svg {
     margin-left: 125px;
-    transition: 0.2s;
+    transition: 0.15s;
     height: 20px;
     width: 20px;
     margin-top: 1px;
@@ -193,7 +193,7 @@
     justify-content: space-between;
     align-items: center;
     height: fit-content;
-    width: 74%;
+    width: 80%;
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -201,7 +201,7 @@
 
 .step-info {
     height:fit-content;
-    width: 42%;
+    width: 40%;
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -209,12 +209,12 @@
     align-items: flex-start;
 }
 
-.step-image_left {
+.step-image-left {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     height: 100%;
-    width: 42%;
+    width: 45%;
 }
 
 .step-image-right {
@@ -222,22 +222,20 @@
     flex-direction: row;
     justify-content: flex-end;
     height: 100%;
-    width: 42%;
-    background-color: blue;
+    width: 45%;
 }
 
 .step-image-right > img {
     height: 400px;
-    width: 100%;
+    width: 90%;
     object-fit: cover;
-
+    /* border: 3px solid #E59F66; */
 }
 
 .step-image-left > img {
-    height: 380px;
-    width: 100%;
+    height: 400px;
+    width: 90%;
     object-fit: cover;
-
 }
 
 .step-info > .step-num {
@@ -273,32 +271,35 @@
 
 }
 
-.step-line {
+.step-line_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    height: 3500px;
+    width: 55px;
+    /* background-color: black; */
+    left: 50%;
+}
+
+.step-line {
     height: 3500px;
     width: 12px;
     background-color: gray;
     left: 50%;
 }
 
-.circle-test {
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     height: 55px;
-    width: 40px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
+    width: 55px;
+    border-radius: 50px;
     background-color: gray;
     left: 50%;
     z-index: 1000;
-}
 
-.circle-test2 {
-    position: absolute;
-    height: 55px;
-    width: 40px;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    background-color: gray;
-    left: 50%;
-    z-index: 1000;
 }

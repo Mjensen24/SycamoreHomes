@@ -51,12 +51,15 @@ const OurProcess = () => {
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
                     </div>
+                    <div className="circle">
+                        <h1>02</h1>
+                    </div>
                 </div>
             </div>
             <div className="step-container">
                 <div className="step-info_container">
-                    <div className="step-image-right">
-                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    <div className="step-image-left">
+                        <img src="/images/homes/luxhome1.jpg" alt="home" />
                     </div>
                     <div className="step-info">
                         <h4 className="step-num">STEP 3</h4>
@@ -68,7 +71,9 @@ const OurProcess = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="circle-test"></div>
+                <div className="circle">
+                    <h1>03</h1>
+                </div>
             </div>
             <div className="step-container">
                 <div className="step-info_container">
@@ -88,14 +93,17 @@ const OurProcess = () => {
                         </div>
                     </div>
                     <div className="step-image-right">
-                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                        <img src="/images/homes/luxhome7.jpg" alt="home" />
+                    </div>
+                    <div className="circle">
+                        <h1>04</h1>
                     </div>
                 </div>
             </div>
             <div className="step-container">
                 <div className="step-info_container">
-                    <div className="step-image-right">
-                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    <div className="step-image-left">
+                        <img src="/images/homes/luxhome6.jpg" alt="home" />
                     </div>
                     <div className="step-info">
                         <h4 className="step-num">STEP 5</h4>
@@ -106,8 +114,12 @@ const OurProcess = () => {
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
                     </div>
-                    <div className="step-line"></div>
-                    <div className="circle-test"></div>
+                    <div className="step-line_container">
+                        <div className="step-line"></div>
+                    </div>
+                    <div className="circle">
+                        <h1>05</h1>
+                    </div>
                 </div>
             </div>
             <div className="step-container">
@@ -128,14 +140,17 @@ const OurProcess = () => {
                         </div>
                     </div>
                     <div className="step-image-right">
-                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                        <img src="/images/homes/luxhome5.jpg" alt="home" />
+                    </div>
+                    <div className="circle">
+                        <h1>06</h1>
                     </div>
                 </div>
             </div>
             <div className="step-container">
                 <div className="step-info_container">
-                    <div className="step-image-right">
-                        <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    <div className="step-image-left">
+                        <img src="/images/homes/luxhome4.jpg" alt="home" />
                     </div>
                     <div className="step-info">
                         <h4 className="step-num">STEP 7</h4>
@@ -157,8 +172,9 @@ const OurProcess = () => {
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans.  McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
                     </div>
-                    <div className="circle-test"></div>
-
+                    <div className="circle">
+                        <h1>07</h1>
+                    </div>
                 </div>
             </div>
             <div className="step-container">
@@ -176,6 +192,9 @@ const OurProcess = () => {
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
+                    </div>
+                    <div className="circle">
+                        <h1>08</h1>
                     </div>
                 </div>
             </div>
