@@ -1,12 +1,12 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 import "./index.css"
-import { RiArrowRightSLine } from 'react-icons/ri';
-import { AiFillHome } from 'react-icons/ai';
+// import { RiArrowRightSLine } from 'react-icons/ri';
+// import { AiFillHome } from 'react-icons/ai';
 
 const OurProcess = () => {
     return (
-        <h1>test</h1>
+        <h1>process</h1>
         // <div className="process-container">
         //     <div className="circle-top">
         //         <AiFillHome />
