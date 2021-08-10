@@ -1,8 +1,9 @@
 import React from 'react'
 import "./index.css"
 import { IoRocketSharp } from 'react-icons/io5';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { BsFillPersonLinesFill, BsFillLockFill } from 'react-icons/bs';
 import { FaTrophy } from 'react-icons/fa';
+import { RiKeyFill } from 'react-icons/ri'
 // import { NavLink } from 'react-router-dom';
 
 const AboutUs = () => {
@@ -50,7 +51,10 @@ const AboutUs = () => {
                                     <h4>You'll find that We're always in the pursuit of exceeding your expectations. We're always thinking outside the box.</h4>
                                 </div>
                                 <div className="staff-info_back">
-                                    <h4>We’ve established long-term, successful relationships with many local vendors, as well as McLane Financial.  We are a licensed and approved builder with McLane.</h4>
+                                    <BsFillLockFill />
+                                    <h2>Warranty</h2>
+                                    <h4>We stand behind our work with a 1, 2, 10 year home warranty (1 year cosmetic, 2 years everything behind the walls, 10 years structural).</h4>
+                                    {/* <h4>We’ve established long-term, successful relationships with many local vendors, as well as McLane Financial.  We are a licensed and approved builder with McLane.</h4> */}
                                 </div>
                             </div>
                         </div>
@@ -64,7 +68,10 @@ const AboutUs = () => {
                                     <h4>Your project will be handled by our trusted experts. We have hand selected the most experienced professionals to work for you.</h4>
                                 </div>
                                 <div className="staff-info_back">
-                                    <h4>A copy of our business license and insurance is provided.  We work solely with licensed and insured vendors and we stand behind our work with a 1, 2, 10 year home warranty (1 year cosmetic, 2 years everything behind the walls, 10 years structural).</h4>
+                                    <RiKeyFill />
+                                    <h2>Buisness License</h2>
+                                    <h4>A copy of our business license and insurance is provided. We work solely with licensed and insured vendors.</h4>
+                                    {/* <h4>A copy of our business license and insurance is provided.  We work solely with licensed and insured vendors and we stand behind our work with a 1, 2, 10 year home warranty (1 year cosmetic, 2 years everything behind the walls, 10 years structural).</h4> */}
                                 </div>
                             </div>
                         </div>
@@ -78,6 +85,9 @@ const AboutUs = () => {
                                     <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4>
                                 </div>
                                 <div className="staff-info_back">
+                                    <FaTrophy />
+                                    <h2>Efficiency</h2>
+                                    {/* <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4> */}
                                     <h4>We specialize in building energy efficient homes that includes duct blaster test air sealing with 3rd party installation inspections plus a door blower test with official certification of passing energy efficiency.</h4>
                                 </div>
                             </div>

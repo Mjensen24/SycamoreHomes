@@ -179,7 +179,7 @@
     width: 100%;
 }
 
-.staff-info_back > h4 {
+/* .staff-info_back > h4 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,8 +189,25 @@
     margin: 0;
     font-size: 21px;
     font-weight: 500;
+} */
+
+.staff-info_back > svg {
+    margin: 0;
+    height: 45px;
+    width: 45px;
 }
 
+.staff-info_back > h2 {
+    margin: 0;
+    font-size: 27px;
+}
+
+.staff-info_back > h4 {
+    margin: 0;
+    width: 80%;
+    font-size: 19px;
+    font-weight: 500;
+}
 
 @media screen and (max-width: 880px) {
     .staff-info_back > p {
