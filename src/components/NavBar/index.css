@@ -13,8 +13,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 201px;
-    width: 500px;
+    height: 180px;
+    width: 580px;
+    margin-left: 35px;
 }
 
 .navbar-logo > img {

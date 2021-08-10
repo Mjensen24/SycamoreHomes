@@ -27,7 +27,13 @@ const
                         <p>Linkedin</p>
                         <p>Twitter</p>
                     </div>
-                    <div className="footer-contact">
+                    <div className="footer-info">
+                        <h3>Company</h3>
+                        <p>Sycamore Custom Luxury Homes</p>
+                        <p>Frederick, MD</p>
+                        <p>(301) 748-1614</p>
+                    </div>
+                    {/* <div className="footer-contact">
                         <div className="contact-column">
                             <h3>Visit</h3>
                             <p>1234 Rolling Hill Road</p>
@@ -38,7 +44,7 @@ const
                             <p>Baberni2@aol.com</p>
                             <p>301-748-1614</p>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='footer-form'>
                         <h3>Contact</h3>
                         <ContactForm />
