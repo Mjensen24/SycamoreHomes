@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import "./index.css"
 
 const Homepage = () => {
@@ -25,9 +26,11 @@ const Homepage = () => {
                     <div className="content_container">
                         <div className="home-intro_info">
                             <h1>Sycamore Custom Luxury Homes</h1>
-                            <h4>Sycamore Custom Luxury Homes builds and Designs custom homes and Luxury Estates. Our highly experienced team has the know-how to achieve your vision.</h4>
+                            <h4>Let us build your DREAM home</h4>
                             <div className="banner-button">
-                                <h4>LEARN MORE</h4>
+                                <NavLink to={"process"}>
+                                    LEARN MORE
+                                </NavLink>
                             </div>
                         </div>
                         <img src="/images/homes/WH.jpg" alt="home" className="home-intro_content" />
@@ -55,11 +58,13 @@ const Homepage = () => {
                 <div className="banner"></div>
                 <div className="banner-content">
                     <div className="banner-boarder">
-                        <h1>SEARCHING FOR THE PERFECT LOT?</h1>
-                        <h4>WE ARE READY TO HELP YOU FIND THE LOT YOU'RE LOOKING FOR.</h4>
+                        <h1>Sycamore Custom Luxury Homes</h1>
+                        <h4>Whether you have a lot ready to build on or if you need to find one…we’re here to help!</h4>
                         <div className="banner-button">
-                            <h4>LEARN MORE</h4>
-                        </div>
+                                <NavLink to={"gallery"}>
+                                    LEARN MORE
+                                </NavLink>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -96,22 +101,22 @@ const Homepage = () => {
                             <div className="bottom-banner_info">
                                 <div className="bottom-info_row">
                                     <div className="bottom-info_box">
-                                        <h1>High-End Features</h1>
-                                        <h4>We offer you High-End standard features. find out how high our "standards" truly are.</h4>
+                                        <h1>Upgraded Features as Standard</h1>
+                                        {/* <h4>We offer you High-End standard features. find out how high our "standards" truly are.</h4> */}
                                     </div>
                                     <div className="bottom-info_box">
-                                        <h1>Concierge Guidance</h1>
-                                        <h4>we guide you through every step of the home building process, including design, selections and constant communication.</h4>
+                                        <h1>Expert Construction Staff</h1>
+                                        {/* <h4>we guide you through every step of the home building process, including design, selections and constant communication.</h4> */}
                                     </div>
                                 </div>
                                 <div className="bottom-info_row">
                                     <div className="bottom-info_box">
-                                        <h1>Experienced craftsman</h1>
-                                        <h4>A Site Supervisor & Master Carpenter to oversee your project who is intimately familiar with the construction progress of your home.</h4>
+                                        <h1>Premium Step-by-Step Guidance</h1>
+                                        {/* <h4>A Site Supervisor & Master Carpenter to oversee your project who is intimately familiar with the construction progress of your home.</h4> */}
                                     </div>
                                     <div className="bottom-info_box">
-                                        <h1>Outstanding Service</h1>
-                                        <h4>we understand the value of consistent communication and we work hard to ensure the entire construction experience is extraordinary!</h4>
+                                        <h1>Unparalleled Customer Service</h1>
+                                        {/* <h4>we understand the value of consistent communication and we work hard to ensure the entire construction experience is extraordinary!</h4> */}
                                     </div>
                                 </div>
                             </div>

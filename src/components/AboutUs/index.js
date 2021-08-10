@@ -87,7 +87,7 @@ const AboutUs = () => {
                 <div className="about-column_2">
                     <div className="column2-info_container">
                         <h1>
-                            We are a woman owned, exceptionally skilled and reliable construction management team with more than 36 years
+                            We are a woman owned, exceptionally skilled and reliable construction management team with more than 30 years
                             combined of successful management of residential and commercial construction projects. We have a career history
                             of directing multi-million dollar projects and maximizing profitability through skillful workflow optimization,
                             effective cost engineering, project management and vendor relations. We are completely dedicated to ensuring the

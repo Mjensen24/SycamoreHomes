@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&display=swap');
+
 .about-container {
     display: flex;
     flex-direction: column;
@@ -30,16 +32,16 @@
 
 .about-header_container > h4 {
     margin: 0;
-    width: 80px;
+    width: 120px;
     font-size: 19px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Armino', sans-serif;
 }
 
 .about-header_container > h1 {
     margin: 0;
     font-size: 38px;
     padding-top: 15px;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Armino', sans-serif;
 }
 
 .about-header_container > h2 {
@@ -351,7 +353,7 @@
 }
 
 .team-container {
-    margin-left: 25px;
+    margin-left: 70px;
     height: 50%;
     width: 100%;
     display: flex;
@@ -393,7 +395,7 @@
 
 .team-info > p {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #larry-skills {

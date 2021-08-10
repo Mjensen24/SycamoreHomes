@@ -200,6 +200,9 @@
 }
 
 .banner-boarder > h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 12px;
     color: white;
     font-family: 'Source Serif Pro', serif;
 }
@@ -216,9 +219,23 @@
     transition: 0.2s;
 }
 
+.banner-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+
 .banner-button:hover {
     background-color: white;
     color: rgb(199, 133, 79);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.banner-button:hover > a {
+    color: #E59F66;
     transition: 0.2s;
     cursor: pointer;
 }
