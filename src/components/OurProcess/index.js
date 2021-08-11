@@ -43,12 +43,12 @@ const OurProcess = () => {
                         <ul>
                             <li>Sycamore Custom Luxury Homes has forged a successful relationship with McLean Mortgage Corporation for pre-approval construction loans. McLean is a trusted mortgage company that is a preferred lender of many area builders.</li>
                         </ul>
-                        <div className="step-button">
-                            {/* <NavLink to={"contact"}>
+                        {/* <div className="step-button">
+                            <NavLink to={"contact"}>
                             Contact Us
-                        </NavLink> */}
-                            {/* <RiArrowRightSLine /> */}
-                        </div>
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div> */}
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome8.jpg" alt="home" />
@@ -67,12 +67,12 @@ const OurProcess = () => {
                         <h4 className="step-num">STEP 3</h4>
                         <h2>Location Selection</h2>
                         <p>We can build on a lot you’ve picked out OR we can help you find one.</p>
-                        <div className="step-button">
-                            {/* <NavLink to={"contact"}>
+                        {/* <div className="step-button">
+                            <NavLink to={"contact"}>
                             Contact Us
-                        </NavLink> */}
-                            {/* <RiArrowRightSLine /> */}
-                        </div>
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div> */}
                     </div>
                 </div>
                 <div className="circle">
@@ -85,12 +85,12 @@ const OurProcess = () => {
                         <h4 className="step-num">STEP 4</h4>
                         <h2>Choose a Home</h2>
                         <p>We’ll explore floorplans designed to meet your lifestyle and budget.</p>
-                        <div className="step-button">
-                            {/* <NavLink to={"gallery"}>
+                        {/* <div className="step-button">
+                            <NavLink to={"gallery"}>
                                 Our Gallery
-                            </NavLink> */}
-                            {/* <RiArrowRightSLine /> */}
-                        </div>
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div> */}
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome7.jpg" alt="home" />
@@ -124,12 +124,12 @@ const OurProcess = () => {
                         <h4 className="step-num">STEP 6</h4>
                         <h2>Selections</h2>
                         <p>Choose your cabinets, flooring, appliances, paint, exterior materials, etc.</p>
-                        <div className="step-button">
-                            {/* <NavLink to={"gallery"}>
+                        {/* <div className="step-button">
+                            <NavLink to={"gallery"}>
                                 Our Gallery
-                            </NavLink> */}
-                            {/* <RiArrowRightSLine /> */}
-                        </div>
+                            </NavLink>
+                            <RiArrowRightSLine />
+                        </div> */}
                     </div>
                     <div className="step-image-right">
                         <img src="/images/homes/luxhome5.jpg" alt="home" />
