@@ -227,14 +227,14 @@
 }
 
 .step-image-right > img {
-    height: 300px;
+    height: 250px;
     width: 90%;
     object-fit: cover;
     border: 3px solid black;
 }
 
 .step-image-left > img {
-    height: 300px;
+    height: 250px;
     width: 90%;
     object-fit: cover;
     border: 3px solid black;
@@ -286,7 +286,7 @@
 }
 
 .step-line {
-    height: 2910px;
+    height: 2700px;
     width: 12px;
     background-color: black;
     margin-left: 1px;
@@ -323,10 +323,10 @@
     top: 1480px;
 }
 
-.circle-top > svg {
-    height: 60%;
-    width: 60%;
+.circle-top > h1 {
+    /* height: 60%;
+    width: 60%; */
     z-index: 1000;
     color: #E59F66;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
