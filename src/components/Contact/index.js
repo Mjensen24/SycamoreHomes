@@ -29,13 +29,13 @@ const Contact = () => {
                         <p>301-748-1614</p>
                     </div>
                 </div>
-                <div className="contact-info_column">
+                {/* <div className="contact-info_column">
                     <div className="contact-column_info">
                         <h3><GoLocation />ADDRESS</h3>
                         <h4>Sycamore Custom Luxery <br /> Homes</h4>
                         <p>1234 Rolling Hill Road <br /> Frederick MD. 21701</p>
                     </div>
-                </div>
+                </div> */}
                 <div className="contact-info_column">
                     <div className="contact-column_info">
                         <h3><HiOutlineMail />EMAIL</h3>
