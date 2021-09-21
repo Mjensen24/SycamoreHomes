@@ -47,14 +47,14 @@ const AboutUs = () => {
                             <div className="staff-info_inner">
                                 <div className="staff-info_front1">
                                     <IoRocketSharp />
-                                    <h2>Innovators</h2>
+                                    <h2>Warranty</h2>
                                     <div className='staff-info_learn'>
                                         <h3>Learn More</h3>
                                     </div>
                                 </div>
                                 <div className="staff-info_back">
                                     <IoRocketSharp />
-                                    <h4>You'll find that We're always in the pursuit of exceeding your expectations. We're always thinking outside the box.</h4>
+                                    <h4>We stand behind our work with a 1, 2, 10 year home warranty (1 year cosmetic, 2 years everything behind the walls, 10 years structural).</h4>
                                 </div>
                             </div>
                         </div>
@@ -64,14 +64,14 @@ const AboutUs = () => {
                             <div className="staff-info_inner">
                                 <div className="staff-info_front1">
                                     <BsFillPersonLinesFill />
-                                    <h2>Expert Team</h2>
+                                    <h2>Business License</h2>
                                     <div className='staff-info_learn'>
                                         <h3>Learn More</h3>
                                     </div>
                                 </div>
                                 <div className="staff-info_back">
                                     <BsFillPersonLinesFill />
-                                    <h4>Your project will be handled by our trusted experts. We have hand selected the most experienced professionals to work for you.</h4>
+                                    <h4>A copy of our business license and insurance is provided. We work solely with licensed and insured vendors.</h4>
                                 </div>
                             </div>
                         </div>
@@ -81,14 +81,14 @@ const AboutUs = () => {
                             <div className="staff-info_inner">
                                 <div className="staff-info_front1">
                                     <FaTrophy />
-                                    <h2>Over 20 Years of Experience</h2>
+                                    <h2>Efficiency</h2>
                                     <div className='staff-info_learn'>
                                         <h3>Learn More</h3>
                                     </div>
                                 </div>
                                 <div className="staff-info_back">
                                     <FaTrophy />
-                                    <h4>With over 20 years of experience You’ll find that we have the knowledge to insure your home is built to the highest of standards. </h4>
+                                    <h4>We specialize in building energy efficient homes that includes duct blaster test air sealing with 3rd party installation inspections plus a door blower test with official certification of passing energy efficiency.</h4>
                                 </div>
                             </div>
                         </div>

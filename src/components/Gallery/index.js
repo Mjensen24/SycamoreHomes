@@ -24,8 +24,8 @@ const Gallery = () => {
             <div className="gallery-tab_container">
                 <Tabs variant="soft-rounded" colorScheme="green">
                     <TabList>
-                        <Tab><h4>Master Bedrooms</h4></Tab>
-                        <Tab><h4>Master Bathrooms</h4></Tab>
+                        {/* <Tab><h4>Master Bedrooms</h4></Tab>
+                        <Tab><h4>Master Bathrooms</h4></Tab> */}
                         <Tab><h4>House Plans</h4></Tab>
                         <Tab><h4>Bedrooms</h4></Tab>
                         <Tab><h4>Bathrooms</h4></Tab>
@@ -37,7 +37,7 @@ const Gallery = () => {
                     </TabList>
                     {/* Master Bedroom */}
                     <TabPanels>
-                        <TabPanel>
+                        {/* <TabPanel>
                             <div className="grid-container">
                                 <div className="gallery-tab_header">
                                     <div className="inner-tab_header">
@@ -50,9 +50,9 @@ const Gallery = () => {
                                     )
                                 })}
                             </div>
-                        </TabPanel>
+                        </TabPanel> */}
                         {/* MASTER BATHROOM */}
-                        <TabPanel>
+                        {/* <TabPanel>
                             <div className="grid-container">
                                 <div className="gallery-tab_header">
                                     <div className="inner-tab_header">
@@ -65,7 +65,7 @@ const Gallery = () => {
                                     )
                                 })}
                             </div>
-                        </TabPanel>
+                        </TabPanel> */}
                         {/* HOUSE PLANS */}
                         <TabPanel>
                             <div className="grid-container">

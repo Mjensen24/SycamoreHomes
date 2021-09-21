@@ -27,7 +27,7 @@ const NavBar = () => {
                 </li>
                 <li className="link">
                     <NavLink to={"gallery"}>
-                        <h2>Gallery</h2>
+                        <h2>Options Gallery</h2>
                     </NavLink>
                 </li>
                 <li className="link">
