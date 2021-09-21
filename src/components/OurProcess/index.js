@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "./index.css"
-import { RiArrowRightSLine } from 'react-icons/ri';
+// import { RiArrowRightSLine } from 'react-icons/ri';
 // import { AiFillHome } from 'react-icons/ai';
 
 const OurProcess = () => {
@@ -45,7 +45,7 @@ const OurProcess = () => {
                         </ul>
                         <div className="step-button">
                             <a href="https://mcleanmortgage.com/">Learn More</a>
-                            <RiArrowRightSLine />
+                            {/* <RiArrowRightSLine /> */}
                         </div>
                     </div>
                     <div className="step-image-right">
@@ -69,7 +69,7 @@ const OurProcess = () => {
                             <NavLink to={"gallery"}>
                                 Learn More
                             </NavLink>
-                            <RiArrowRightSLine />
+                            {/* <RiArrowRightSLine /> */}
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ const OurProcess = () => {
                             <NavLink to={"gallery"}>
                                 See Gallery
                             </NavLink>
-                            <RiArrowRightSLine />
+                            {/* <RiArrowRightSLine /> */}
                         </div>
                     </div>
                     <div className="step-image-right">
@@ -126,7 +126,7 @@ const OurProcess = () => {
                             <NavLink to={"gallery"}>
                                 See Gallery
                             </NavLink>
-                            <RiArrowRightSLine />
+                            {/* <RiArrowRightSLine /> */}
                         </div>
                     </div>
                     <div className="step-image-right">
